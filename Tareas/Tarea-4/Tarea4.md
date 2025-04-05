@@ -1,6 +1,39 @@
 # Titulo
 Desarrollo y Evaluación de un Producto Mínimo Viable basado en Inteligencia Artificial para la Generación Eficiente de Identificación de Casos de Pruebas en Equipos Ágiles en la Empresa Patito SRL en la gestión 2025
 
+# Índice
+
+- [Introducción](#introducción)
+- [1. Antecedentes del problema](#1-antecedentes-del-problema)
+- [Fundamentos del enfoque, diseño y tipo de investigación](#fundamentos-del-enfoque-diseño-y-tipo-de-investigación)
+- [Fundamentos del planteamiento del problema](#fundamentos-del-planteamiento-del-problema)
+- [2. Formulación del problema](#2-formulación-del-problema)
+  - [2.1. Objeto de estudio](#21-objeto-de-estudio)
+  - [2.2. Campo de acción](#22-campo-de-acción)
+- [3. Objetivos de la investigacion](#3-objetivos-de-la-investigacion)
+  - [3.1. Objetivo General](#31-objetivo-general)
+  - [3.2. Objetivos Específicos](#32-objetivos-específicos)
+- [4. Justificación](#4-justificación)
+  - [4.1. Justificación Teórica](#41-justificación-teórica)
+  - [4.2. Justificación Práctica](#42-justificación-práctica)
+  - [4.3. Justificación Económica](#43-justificación-económica)
+  - [4.4. Justificación Metodológica](#44-justificación-metodológica)
+  - [4.5. Justificación Personal](#45-justificación-personal)
+- [5. Formulación de la construcción teórica. Hipótesis para Defender](#5-formulación-de-la-construcción-teórica-hipótesis-para-defender)
+  - [5.1 Identificación de las variables](#51-identificación-de-las-variables)
+- [Capítulo 1. Referentes teóricos](#capítulo-1-referentes-teóricos)
+  - [1.1. Núcleos teóricos a desarrollar](#11-núcleos-teóricos-a-desarrollar)
+  - [1.2. Índice Detallado para el Desarrollo del Marco Teórico](#12-índice-detallado-para-el-desarrollo-del-marco-teórico)
+- [Capítulo 2. Diseño metodológico](#capítulo-2-diseño-metodológico)
+  - [2.1. Tipo, Enfoque y Alcance de la Investigación](#21-tipo-enfoque-y-alcance-de-la-investigación)
+  - [2.2. Delimitación de la Investigación](#22-delimitación-de-la-investigación)
+  - [2.3. Definición Conceptual de las Variables](#23-definición-conceptual-de-las-variables)
+  - [2.4. Definición Operacional de las Variables](#24-definición-operacional-de-las-variables)
+- [Referencias Bibliográficas](#referencias-bibliográficas)
+- [Anexos](#anexos)
+
+---
+
 # Introducción
 
 En la era digital actual, la agilidad y la innovación son factores críticos para mantener la competitividad en el desarrollo de software. Con la creciente complejidad de las aplicaciones y la necesidad de lanzamientos rápidos, la generación y validación de casos de prueba se ha vuelto esencial para garantizar la calidad del producto final. Según el artículo "The Future of Software Testing: AI-Powered Test Case Generation and Validation" (Baqar & Khanda, 2024), la integración de la inteligencia artificial (IA) en el proceso de testing permite ampliar la cobertura de pruebas y reducir significativamente los tiempos de validación, ofreciendo una ventaja competitiva en entornos ágiles.
