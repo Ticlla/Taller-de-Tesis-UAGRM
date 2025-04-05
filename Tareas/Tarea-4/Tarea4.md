@@ -22,7 +22,10 @@ Desarrollo y Evaluación de un Producto Mínimo Viable basado en Inteligencia Ar
 - [5. Formulación de la construcción teórica. Hipótesis para Defender](#5-formulación-de-la-construcción-teórica-hipótesis-para-defender)
   - [5.1 Identificación de las variables](#51-identificación-de-las-variables)
 - [Capítulo 1. Referentes teóricos](#capítulo-1-referentes-teóricos)
-  - [1.1. Núcleos teóricos a desarrollar](#11-núcleos-teóricos-a-desarrollar)
+  - [Referencia a núcleos teóricos a desarrollar en la investigación](#referencia-a-núcleos-teóricos-a-desarrollar-en-la-investigación)
+    - [1.1.1. Objeto de estudio](#111-objeto-de-estudio)
+    - [1.1.2. Campo de acción](#112-campo-de-acción)
+    - [1.1.3. Cómo del objetivo general](#113-cómo-del-objetivo-general)
   - [1.2. Índice Detallado para el Desarrollo del Marco Teórico](#12-índice-detallado-para-el-desarrollo-del-marco-teórico)
 - [Capítulo 2. Diseño metodológico](#capítulo-2-diseño-metodológico)
   - [2.1. Tipo, Enfoque y Alcance de la Investigación](#21-tipo-enfoque-y-alcance-de-la-investigación)
@@ -165,7 +168,7 @@ Si se desarrolla un producto mínimo viable basado en Inteligencia Artificial pa
 
 # Capítulo 1. Referentes teóricos
 
-## 1.1. Núcleos teóricos a desarrollar
+## Referencia a núcleos teóricos a desarrollar en la investigación
 
 - Inteligencia Artificial: aprendizaje automático, NLP.
 - Automatización en testing de software.
