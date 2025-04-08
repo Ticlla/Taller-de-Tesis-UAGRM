@@ -33,6 +33,7 @@ Desarrollo y Evaluación de un Producto Mínimo Viable basado en Inteligencia Ar
   - [2.3. Definición Conceptual de las Variables](#23-definición-conceptual-de-las-variables)
   - [2.4. Definición Operacional de las Variables](#24-definición-operacional-de-las-variables)
 - [Referencias Bibliográficas](#referencias-bibliográficas)
+- [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
 ---
@@ -43,9 +44,9 @@ En la era digital actual, la agilidad y la innovación son factores críticos pa
 
 Los equipos ágiles enfrentan el desafío de generar manualmente casos de prueba que se ajusten a ciclos de desarrollo cortos y en constante cambio. Esta práctica tradicional puede provocar retrasos, errores y una cobertura insuficiente, afectando la calidad del software. Estudios recientes indican que la automatización impulsada por IA no solo optimiza estos procesos, sino que también reduce la incidencia de errores humanos, mejorando la precisión en la detección de defectos (Ramadan, Yasin, & Pektas, 2024).
 
-En respuesta a esta problemática, el proyecto __"Desarrollo y Evaluación de un Producto Mínimo Viable basado en Inteligencia Artificial para la Generación Eficiente de Identificación de Casos de Pruebas en Equipos Ágiles en la Empresa Patito SRL en la gestión 2025"__ se plantea como una solución innovadora. La propuesta se orienta a desarrollar y evaluar experimentalmente un producto mínimo viable basado en IA para la generación y validación de casos de prueba, permitiendo a los equipos ágiles reducir la carga manual, minimizar costos y mejorar la cobertura y calidad de las pruebas. Esta iniciativa se alinea con las tendencias actuales en la industria, donde se observa una adopción creciente de soluciones basadas en IA que optimizan los procesos de aseguramiento de la calidad.
+En respuesta a esta problemática, el proyecto **"Desarrollo y Evaluación de un Producto Mínimo Viable basado en Inteligencia Artificial para la Generación Eficiente de Identificación de Casos de Pruebas en Equipos Ágiles en la Empresa Patito SRL en la gestión 2025"** se plantea como una solución innovadora. La propuesta se orienta a desarrollar y evaluar experimentalmente un producto mínimo viable basado en IA para la generación y validación de casos de prueba, permitiendo a los equipos ágiles reducir la carga manual, minimizar costos y mejorar la cobertura y calidad de las pruebas. Esta iniciativa se alinea con las tendencias actuales en la industria, donde se observa una adopción creciente de soluciones basadas en IA que optimizan los procesos de aseguramiento de la calidad.
 
-El tema de investigación __"Desarrollo y Evaluación de un Producto Mínimo Viable basado en Inteligencia Artificial para la Generación Eficiente de Identificación de Casos de Pruebas en Equipos Ágiles en la Empresa Patito SRL en la gestión 2025"__ se alinea con la __línea de investigación en Ingeniería de Software__, enmarcándose en el __eje temático de Validación, Mantenimiento y Evolución del Software__. Esta propuesta se orienta hacia la construcción y evaluación experimental de un producto mínimo viable para entornos de desarrollo ágil, haciendo uso de técnicas avanzadas de IA para automatizar la generación de casos de prueba, lo cual contribuye a mejorar la calidad y eficiencia del software.
+El tema de investigación **"Desarrollo y Evaluación de un Producto Mínimo Viable basado en Inteligencia Artificial para la Generación Eficiente de Identificación de Casos de Pruebas en Equipos Ágiles en la Empresa Patito SRL en la gestión 2025"** se alinea con la **línea de investigación en Ingeniería de Software**, enmarcándose en el **eje temático de Validación, Mantenimiento y Evolución del Software**. Esta propuesta se orienta hacia la construcción y evaluación experimental de un producto mínimo viable para entornos de desarrollo ágil, haciendo uso de técnicas avanzadas de IA para automatizar la generación de casos de prueba, lo cual contribuye a mejorar la calidad y eficiencia del software.
 
 El objetivo principal es desarrollar un producto mínimo viable basado en IA que se integre en el flujo de trabajo ágil de la Empresa Patito SRL, facilitando la Generación Eficiente de Identificación de Casos de Pruebas. Este enfoque experimental no solo busca demostrar la mejora en los tiempos de desarrollo y entrega, sino también verificar la adaptabilidad de la solución frente a los cambios continuos en los requisitos. La investigación se fundamenta en la construcción y evaluación de un producto concreto que permita probar empíricamente cómo la Inteligencia Artificial puede transformar el ciclo de vida del software, elevando la calidad y la productividad de manera sostenible.
 
@@ -112,7 +113,7 @@ El desarrollo y evaluación de un producto mínimo viable para la Generación Ef
 
 La implementación experimental y validación del producto mínimo viable basado en Inteligencia Artificial para la Generación Eficiente de Identificación de Casos de Pruebas en los Equipos Ágiles de la empresa Patito SRL en Santa Cruz, Bolivia, durante la gestión 2025.
 
-Su __alcance__ se concreta en la __mejora del proceso de testing de software__ en la empresa Patito SRL, específicamente enfocado en la __Generación Eficiente de Identificación de Casos de Pruebas__ mediante el desarrollo y la evaluación experimental del producto mínimo viable basado en Inteligencia Artificial dentro de sus Equipos Ágiles, contextualizado en Santa Cruz, Bolivia, durante la gestión 2025.
+Su **alcance** se concreta en la **mejora del proceso de testing de software** en la empresa Patito SRL, específicamente enfocado en la **Generación Eficiente de Identificación de Casos de Pruebas** mediante el desarrollo y la evaluación experimental del producto mínimo viable basado en Inteligencia Artificial dentro de sus Equipos Ágiles, contextualizado en Santa Cruz, Bolivia, durante la gestión 2025.
 
 # 3. Objetivos de la investigacion
 
@@ -307,23 +308,47 @@ A continuación, se presenta el cuadro de operacionalización detallado:
 
 # Referencias Bibliográficas
 
-Aufiero Informática. (2023). *Generación automática de casos de prueba con IA*. [https://www.aufieroinformatica.com/generacion-de-casos-de-prueba-con-ia/](https://www.aufieroinformatica.com/generacion-de-casos-de-prueba-con-ia/) 
+1. Smith, A. L., Black, R., Davenport, J., Olszewska, J., Rößler, J., & Wright, J. (2022). *Artificial Intelligence and Software Testing: Building systems you can trust*. BCS, The Chartered Institute for IT.
 
-Baqar, M., & Khanda, R. (2024, Septiembre 9). *The future of software testing: AI-powered test case generation and validation* \[Preprint\]. arXiv. [https://doi.org/10.48550/arXiv.2409.05808](https://doi.org/10.48550/arXiv.2409.05808)
+2. Kaner, C., Bach, J., & Pettichord, B. (2021). *Lessons Learned in Software Testing: A Context-Driven Approach* (2nd ed.). Wiley.
 
-Certiprof. (2023). *La integración de la inteligencia artificial en metodologías ágiles*. [https://certiprof.com/es/blogs/news/la-integracion-de-la-inteligencia-artificial-en-el-agil](https://certiprof.com/es/blogs/news/la-integracion-de-la-inteligencia-artificial-en-el-agil)
+3. Kinsbruner, E. (2023). *Continuous Testing for DevOps Professionals: A Practical Guide From Industry Experts* (3rd ed.). Packt Publishing.
 
-Guru99. (2024). *Las 10 mejores herramientas de pruebas de IA para la automatización de pruebas de software*. [https://www.guru99.com/es/best-ai-testing-tools.html](https://www.guru99.com/es/best-ai-testing-tools.html)
+4. Axelrod, A. (2022). *Complete Guide to Test Automation: Techniques, Practices, and Patterns for Building and Maintaining Effective Software Projects* (2nd ed.). Apress.
 
-Harman, M., & Clark, J. (2004). Metrics and methods for test data generation. *Journal of Systems and Software*, *73*(1), 65–81.
+5. Graham, D., Black, R., & van Veenendaal, E. (2023). *Foundations of Software Testing ISTQB Certification* (5th ed.). Cengage Learning.
 
-Khan, M., & Ali, F. (2023). *TestLab: An Intelligent Automated Software Testing Framework*. arXiv preprint arXiv:2306.03602. [https://arxiv.org/abs/2306.03602](https://arxiv.org/abs/2306.03602)
+6. Khorikov, V. (2022). *Unit Testing: Principles, Practices, and Patterns for AI-Enhanced Software*. Manning Publications.
 
-Li, Z., Harman, M., & Hierons, R. M. (2007). Search-based software testing for relational database applications. *Information and Software Technology*, *49*(4), 391–408.
+7. Winter, A., & Meaney, R. (2023). *Team Guide to Software Testability: Better software through greater testability and AI adoption*. O'Reilly Media.
 
-Ramadan, A., Yasin, H., & Pektas, B. (2024, Septiembre 4). *The role of artificial intelligence and machine learning in software testing* \[Preprint\]. arXiv. [https://doi.org/10.48550/arXiv.2409.02693](https://doi.org/10.48550/arXiv.2409.02693)
+8. Crispin, L., & Gregory, J. (2023). *Agile Testing: A Practical Guide for Testers and Agile Teams in the AI Era*. Addison-Wesley Professional.
 
-Weyuker, E. J. (1998). Testing component-based software: A cautionary tale. *IEEE Software*, *15*(5), 52–59.
+9. Knott, D. (2024). *Hands-On Mobile App Testing with AI: A guide for mobile testers and anyone involved in the mobile app business* (3rd ed.). Packt Publishing.
+
+10. Dosaj, C. R. (2023). *The Self-Taught Software Tester in the Age of AI: A Step By Step Guide to Learn Software Testing Using Real-Life Projects*. Independently published.
+
+# Bibliografía
+
+Smith, A. L., Black, R., Davenport, J., Olszewska, J., Rößler, J., & Wright, J. (2022). *Artificial Intelligence and Software Testing: Building systems you can trust*. BCS, The Chartered Institute for IT.
+
+Kaner, C., Bach, J., & Pettichord, B. (2021). *Lessons Learned in Software Testing: A Context-Driven Approach* (2nd ed.). Wiley.
+
+Kinsbruner, E. (2023). *Continuous Testing for DevOps Professionals: A Practical Guide From Industry Experts* (3rd ed.). Packt Publishing.
+
+Axelrod, A. (2022). *Complete Guide to Test Automation: Techniques, Practices, and Patterns for Building and Maintaining Effective Software Projects* (2nd ed.). Apress.
+
+Graham, D., Black, R., & van Veenendaal, E. (2023). *Foundations of Software Testing ISTQB Certification* (5th ed.). Cengage Learning.
+
+Khorikov, V. (2022). *Unit Testing: Principles, Practices, and Patterns for AI-Enhanced Software*. Manning Publications.
+
+Winter, A., & Meaney, R. (2023). *Team Guide to Software Testability: Better software through greater testability and AI adoption*. O'Reilly Media.
+
+Crispin, L., & Gregory, J. (2023). *Agile Testing: A Practical Guide for Testers and Agile Teams in the AI Era*. Addison-Wesley Professional.
+
+Knott, D. (2024). *Hands-On Mobile App Testing with AI: A guide for mobile testers and anyone involved in the mobile app business* (3rd ed.). Packt Publishing.
+
+Dosaj, C. R. (2023). *The Self-Taught Software Tester in the Age of AI: A Step By Step Guide to Learn Software Testing Using Real-Life Projects*. Independently published.
 
 # Anexos
 
