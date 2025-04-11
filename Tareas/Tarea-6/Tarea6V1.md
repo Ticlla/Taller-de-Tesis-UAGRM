@@ -1,4 +1,4 @@
-# Titulo
+# Título
 Desarrollo y Evaluación de un Producto Mínimo Viable basado en Inteligencia Artificial para la Generación Eficiente de Identificación de Casos de Pruebas en Equipos Ágiles en la Empresa Patito SRL en la gestión 2025
 
 # Índice
@@ -10,7 +10,7 @@ Desarrollo y Evaluación de un Producto Mínimo Viable basado en Inteligencia Ar
 - [2. Formulación del problema](#2-formulación-del-problema)
   - [2.1. Objeto de estudio](#21-objeto-de-estudio)
   - [2.2. Campo de acción](#22-campo-de-acción)
-- [3. Objetivos de la investigacion](#3-objetivos-de-la-investigacion)
+- [3. Objetivos de la investigación](#3-objetivos-de-la-investigación)
   - [3.1. Objetivo General](#31-objetivo-general)
   - [3.2. Objetivos Específicos](#32-objetivos-específicos)
 - [4. Justificación](#4-justificación)
@@ -73,7 +73,7 @@ El proyecto aborda la necesidad crítica de optimizar la generación de casos de
 
 El enfoque metodológico adoptado es cuantitativo, bajo el paradigma positivista. Esta elección se fundamenta en la necesidad de medir objetivamente los beneficios de la aplicación de IA, utilizando métricas claras como tiempos de generación, precisión de los casos generados y cobertura de pruebas. Este enfoque permitirá validar empíricamente la eficacia y eficiencia de la tecnología aplicada, proporcionando evidencia objetiva que respalde la adopción y expansión de soluciones avanzadas para resolver problemas específicos y recurrentes en la industria del software.
 
-El diseño metodológico del proyecto es experimental con un enfoque cuasi-experimental, incluyendo un grupo de control y un grupo experimental para comparar la eficiencia y calidad entre los procesos manuales tradicionales y el producto mínimo viable basado en IA. Se contempla inicialmente la recolección de datos a través de encuestas y entrevistas para evaluar la situación actual, seguida por el desarrollo e implementación del producto mínimo viable basado en técnicas de Machine Learning y procesamiento de lenguaje natural. Finalmente, se realizarán análisis estadísticos para evaluar los resultados obtenidos y comprobar la hipótesis planteada.
+El diseño metodológico del proyecto es experimental con un enfoque cuasi-experimental, incluyendo un grupo de control y un grupo experimental para comparar la eficiencia y calidad entre los procesos manuales tradicionales y el producto mínimo viable basado en IA. Se contempla inicialmente la recolección de datos a través de encuestas estructuradas y mediciones cuantitativas para evaluar la situación actual, seguida por el desarrollo e implementación del producto mínimo viable basado en técnicas de Machine Learning y procesamiento de lenguaje natural. Finalmente, se realizarán análisis estadísticos para evaluar los resultados obtenidos y comprobar la hipótesis planteada.
 
 Esta metodología permitirá a la empresa Patito SRL evidenciar con claridad el impacto real de un producto mínimo viable basado en Inteligencia Artificial para la Generación Eficiente de Identificación de Casos de Pruebas, facilitando decisiones estratégicas futuras basadas en evidencia empírica sobre la adopción y escalamiento de la solución.
 
@@ -118,7 +118,7 @@ La implementación experimental y validación del producto mínimo viable basado
 
 Su **alcance** se concreta en la **mejora del proceso de testing de software** en la empresa Patito SRL, específicamente enfocado en la **Generación Eficiente de Identificación de Casos de Pruebas** mediante el desarrollo y la evaluación experimental del producto mínimo viable basado en Inteligencia Artificial dentro de sus Equipos Ágiles, contextualizado en Santa Cruz, Bolivia, durante la gestión 2025.
 
-# 3. Objetivos de la investigacion
+# 3. Objetivos de la investigación
 
 ## 3.1. Objetivo General
 
@@ -304,174 +304,73 @@ A continuación, se presenta el cuadro de operacionalización detallado:
 |                                                                             | 1.3. Disponibilidad Operativa                  | 1.3.1. MVP desplegado y accesible para su uso en el entorno de pruebas controlado de Patito SRL.                              | Verificación de despliegue/infraestructura                                   |
 | **2. Eficiencia en el proceso de validación de software (Variable Dependiente)** | 2.1. Tiempo/Esfuerzo Requerido                | 2.1.1. Tiempo promedio (ej. horas-hombre) para identificar casos de prueba por unidad de trabajo (historia de usuario, etc.). | Registros de tiempo, Cronometraje directo, Estimaciones (si aplica)        |
 |                                                                             | 2.2. Cobertura Alcanzada                       | 2.2.1. Porcentaje de requisitos funcionales/criterios de aceptación cubiertos por los casos de prueba identificados.         | Matriz de trazabilidad, Herramientas de análisis de cobertura (si aplica) |
-|                                                                             | 2.3. Calidad/Precisión de Casos Identificados | 2.3.1. Número o porcentaje de casos de prueba relevantes generados (evaluados por expertos QA).                             | Rúbrica de evaluación experta, Revisión por pares                          |
+|                                                                             | 2.3. Calidad/Precisión de Casos Identificados | 2.3.1. Número o porcentaje de casos de prueba relevantes generados (evaluados según criterios predefinidos).                | Lista de verificación de conformidad técnica, Matriz de evaluación cuantitativa |
 |                                                                             |                                                | 2.3.2. (Opcional/Indirecto) Tasa de detección de defectos usando los casos generados en fases posteriores.                   | Sistema de seguimiento de defectos (Bug Tracking System)                     |
 
 **Fuente:** Elaboración propia, 2024 (adaptado del marco conceptual y objetivos).
 
 ## 2.5. Métodos de Investigación
 
-Los métodos de obtención del conocimiento que serán aplicados en esta investigación se categorizan en métodos del nivel teórico y métodos del nivel empírico, alineados con el enfoque cuantitativo y el diseño cuasi-experimental del estudio.
+La presente investigación, alineada con su enfoque cuantitativo y diseño cuasi-experimental, emplea una selección estratégica de métodos tanto teóricos como empíricos que resultan óptimos para una tesis de maestría.
 
-### 2.5.1. Métodos del Nivel Teórico
+**Métodos Teóricos:**
 
-**Método Histórico-Lógico**: Permitirá obtener una comprensión integral del proceso de validación de software y la evolución de técnicas de generación de casos de prueba, estableciendo una línea temporal desde las metodologías manuales tradicionales hasta los enfoques automatizados actuales basados en IA. Este método facilitará entender cómo han evolucionado las prácticas de testing en entornos ágiles y cómo la inteligencia artificial ha transformado este campo.
+- **Análisis-síntesis**: Método que consiste en la descomposición mental del objeto de estudio en sus partes constitutivas (análisis) y la posterior integración de éstas para estudiar de manera completa e integral las relaciones entre ellas y las características del fenómeno (síntesis).
 
-**Método Inductivo-Deductivo**: Se utilizará para establecer relaciones entre conceptos teóricos (calidad del software, inteligencia artificial, metodologías ágiles) y datos empíricos obtenidos durante la experimentación. Este método permitirá inferir conclusiones sobre la aplicabilidad general del MVP basado en los resultados específicos obtenidos en Patito SRL, y deducir estrategias específicas de implementación a partir de marcos teóricos generales sobre testing con IA.
+- **Hipotético-deductivo**: Procedimiento que parte de una hipótesis inferida de principios o leyes teóricas, para luego aplicar reglas de deducción, arribar a predicciones que se someten a verificación empírica, y, si hay correspondencia con los hechos, se comprueba la veracidad de la hipótesis inicial.
 
-**Método de Análisis-Síntesis**: Será aplicado para descomponer el proceso de generación de casos de prueba en sus componentes fundamentales (interpretación de requisitos, identificación de escenarios críticos, formulación de condiciones de prueba, etc.), analizando cada uno individualmente y luego reintegrándolos en una solución automatizada coherente implementada en el MVP. Este método apoyará tanto la fase de diagnóstico como la de diseño del producto.
+**Métodos Empíricos:**
 
-**Método Hipotético-Deductivo**: Permitirá poner a prueba la hipótesis planteada mediante la observación sistemática de los resultados del MVP comparados con los métodos tradicionales. A partir de la hipótesis general sobre la mejora en la eficiencia, se deducirán predicciones específicas y verificables que serán sometidas a validación experimental.
+- **Experimentación controlada**: Método que consiste en reproducir artificialmente un fenómeno con el propósito de investigar sus relaciones causales, manipulando deliberadamente una o más variables independientes para observar sus efectos sobre variables dependientes en una situación controlada.
 
-### 2.5.2. Métodos del Nivel Empírico
+- **Observación sistemática**: Procedimiento de recolección de datos basado en el registro planificado, estructurado y objetivo de comportamientos, procesos o fenómenos, realizado de forma directa y siguiendo protocolos previamente establecidos que garantizan la objetividad.
 
-En coherencia con el enfoque cuantitativo y el diseño cuasi-experimental declarado, se aplicarán los siguientes métodos empíricos para la obtención de datos:
+- **Encuesta**: Técnica de investigación que recoge información mediante un cuestionario diseñado con antelación, sin modificar el entorno ni controlar el proceso que está en observación, con el fin de obtener datos cuantificables sobre variables específicas.
 
-**Observación Sistemática**: Se implementará para desarrollar una percepción objetiva del proceso actual de identificación de casos de prueba en los equipos ágiles de Patito SRL. Esta observación seguirá protocolos estructurados que permitan cuantificar aspectos como tiempos, esfuerzo, precisión y cobertura, proporcionando una línea base para comparar con los resultados del MVP.
+En el contexto específico de esta investigación, los métodos teóricos se aplicarán durante la fase de diagnóstico y diseño del MVP. A través del análisis-síntesis se descompondrá el proceso actual de generación de casos de prueba para identificar ineficiencias y oportunidades de mejora, permitiendo diseñar una solución integral que aborde estos aspectos. Mediante el método hipotético-deductivo se establecerán predicciones concretas sobre cómo el MVP mejorará la eficiencia, predicciones que serán validadas durante la fase experimental.
 
-**Experimentación Controlada**: Constituirá el núcleo metodológico empírico, mediante la implementación del MVP (variable independiente) en un entorno controlado y la medición de su impacto en la eficiencia del proceso de validación (variable dependiente). Se establecerán grupos de control (proceso tradicional) y experimental (usando el MVP) para medir indicadores como tiempo de generación, precisión y cobertura de los casos de prueba.
+Los métodos empíricos constituirán el núcleo operativo de la investigación. La experimentación controlada se implementará asignando tareas idénticas a los grupos control y experimental, midiendo indicadores como tiempo, cobertura y precisión de los casos generados. La observación sistemática se aplicará para documentar el proceso actual en Patito SRL, estableciendo la línea base necesaria para posteriores comparaciones. Por último, las encuestas se administrarán en dos momentos clave (pre y post-implementación) para medir indicadores de rendimiento, efectividad operativa y eficiencia en la generación de casos de prueba.
 
-**Encuesta**: Se utilizará para obtener datos cuantificables sobre el proceso actual de identificación de casos de prueba y, posteriormente, sobre la experiencia de uso del MVP. Mediante cuestionarios estructurados aplicados a los miembros de los equipos ágiles, se recopilarán mediciones de variables como tiempos percibidos, satisfacción con la calidad de los casos generados y usabilidad de la herramienta.
-
-**Análisis Documental**: Se realizará sobre artefactos como historias de usuario, especificaciones de requisitos, casos de prueba existentes y documentación de errores, para establecer métricas objetivas sobre la calidad y eficiencia del proceso actual. Este análisis proporcionará datos históricos sobre el rendimiento de la generación manual de casos de prueba que servirán como referencia comparativa.
-
-**Análisis Estadístico**: Se aplicará para procesar los datos recopilados durante la experimentación, estableciendo comparaciones estadísticamente válidas entre los grupos de control y experimental. Mediante pruebas como t-Student, ANOVA u otras técnicas estadísticas apropiadas, se determinará si las diferencias observadas en eficiencia son estadísticamente significativas, validando así la hipótesis planteada.
-
-La combinación de estos métodos teóricos y empíricos, coherentemente alineados con el enfoque cuantitativo y el diseño cuasi-experimental, garantizará una aproximación rigurosa y científica al objeto de estudio, facilitando tanto el desarrollo técnico del MVP como la validación empírica de su impacto en la eficiencia del proceso de validación de software en los equipos ágiles de Patito SRL.
+Esta combinación selectiva de métodos garantiza un balance óptimo entre el rigor científico necesario y la practicidad requerida en una investigación de maestría, permitiendo evaluar objetivamente la eficiencia del MVP basado en IA para la identificación de casos de prueba en el contexto específico de Patito SRL.
 
 ## 2.6. Técnicas de Recolección de Datos de la Investigación
 
-En consonancia con el enfoque cuantitativo y el diseño cuasi-experimental de la investigación, se aplicarán las siguientes técnicas de recolección de datos, seleccionadas para obtener información precisa y medible sobre las variables de estudio:
+La recolección de datos para esta investigación se realizará mediante un conjunto integrado de técnicas seleccionadas en coherencia con los métodos de investigación previamente definidos y el enfoque cuantitativo del estudio. La **observación sistemática estructurada** constituye una técnica fundamental que permitirá registrar de manera objetiva el proceso actual de generación de casos de prueba en Patito SRL, utilizando protocolos con categorías predefinidas que posibilitarán **cronometrar tiempos de ejecución**, **documentar interacciones usuario-sistema** y **cuantificar errores o reprocesos**. Esta técnica aplica directamente el método de observación sistemática mencionado en la sección anterior, garantizando así la captura de **datos objetivos** sobre el desempeño real tanto del proceso tradicional como del MVP implementado.
 
-### 2.6.1. Técnicas de Observación Directa
+Complementariamente, se emplearán **técnicas de encuesta** mediante **cuestionarios estructurados** con preguntas cerradas y **escalas numéricas**, aplicados en **dos momentos clave**: antes de implementar el MVP (para establecer la línea base) y después de su implementación (para medir el impacto). Estos instrumentos permitirán medir variables como la **eficiencia medida**, el **tiempo invertido** y el **rendimiento operativo** durante la generación de casos de prueba, proporcionando datos estrictamente cuantificables y comparables. Paralelamente, se implementará la **revisión documental estructurada** utilizando **matrices de registro** y **listas de verificación** para analizar artefactos existentes como historias de usuario, especificaciones de requisitos y casos de prueba previos, extrayendo **métricas objetivas** sobre el rendimiento histórico del proceso de testing en la organización.
 
-Se aplicará la **observación sistemática estructurada** para registrar de manera objetiva el proceso actual de generación de casos de prueba en los Equipos Ágiles de Patito SRL. Esta técnica permitirá:
-
-- Cronometrar tiempos de ejecución en cada fase del proceso de identificación de casos de prueba.
-- Registrar mediante listas de verificación la completitud y exactitud de los casos generados.
-- Documentar la interacción de los usuarios con las herramientas actuales y posteriormente con el MVP.
-- Cuantificar la frecuencia de errores y reprocesos durante la actividad.
-
-La observación se realizará utilizando protocolos estructurados con categorías predefinidas y escalas de medición, evitando así interpretaciones subjetivas y garantizando la replicabilidad de la técnica.
-
-### 2.6.2. Técnicas de Encuesta
-
-Se utilizará un **cuestionario estructurado** con preguntas cerradas y de escala Likert para:
-
-- Medir la percepción de eficiencia del proceso actual por parte de los miembros del equipo.
-- Cuantificar el esfuerzo percibido en la generación manual de casos de prueba.
-- Evaluar el nivel de satisfacción con la calidad de los casos generados antes y después de implementar el MVP.
-- Medir variables relacionadas con la usabilidad y aceptación del MVP implementado.
-
-Estos cuestionarios se aplicarán en dos momentos: antes de la implementación del MVP (para establecer la línea base) y después de su implementación (para medir el impacto), tanto al grupo de control como al experimental.
-
-### 2.6.3. Técnicas de Análisis Documental
-
-Se empleará la **revisión documental estructurada** mediante:
-
-- Matrices de registro para cuantificar características de los casos de prueba existentes (cobertura, efectividad en la detección de errores, etc.).
-- Listas de verificación para evaluar la adherencia de los casos de prueba a estándares de calidad predefinidos.
-- Formularios de extracción de datos para obtener métricas históricas de los proyectos de la empresa (tiempo de ciclo, tasas de defectos, etc.).
-
-La documentación a analizar incluirá historias de usuario, especificaciones de requisitos, casos de prueba existentes, registros de errores y métricas de proyectos anteriores de Patito SRL.
-
-### 2.6.4. Técnicas Experimentales
-
-Se aplicarán **técnicas de experimentación controlada** mediante:
-
-- Asignación de tareas específicas de generación de casos de prueba bajo condiciones controladas tanto al grupo experimental (utilizando el MVP) como al grupo de control (utilizando métodos tradicionales).
-- Registro sistemático de variables dependientes como tiempo de ejecución, cobertura lograda y precisión de los casos generados.
-- Control de variables extrañas que pudieran influir en los resultados (como la experiencia previa de los participantes o la complejidad de las tareas asignadas).
-
-### 2.6.5. Técnicas de Medición
-
-Se utilizarán **técnicas de medición cuantitativa** para evaluar el rendimiento del MVP y compararlo con los métodos tradicionales:
-
-- Mediciones de tiempo mediante cronómetros y registros automatizados.
-- Cálculos de porcentajes de cobertura utilizando herramientas especializadas.
-- Conteo de errores detectados por los casos de prueba generados.
-- Mediciones de esfuerzo (horas-persona) requeridas para completar las tareas.
-
-Estas técnicas de recolección de datos están diseñadas para proporcionar información objetiva, cuantificable y verificable que permita evaluar rigurosamente la hipótesis planteada sobre la mejora en la eficiencia del proceso de validación de software mediante el MVP basado en IA. Los datos obtenidos serán procesados mediante técnicas estadísticas apropiadas para determinar la significancia de las diferencias observadas entre los grupos de control y experimental.
+La **experimentación controlada**, como técnica central alineada con el **diseño cuasi-experimental**, se implementará mediante la **asignación de tareas específicas** tanto al **grupo experimental** como al **grupo de control**, registrando sistemáticamente variables como **tiempo de ejecución**, **cobertura** y **precisión** de los casos generados. Esta técnica se complementará con **mediciones cuantitativas precisas** utilizando cronómetros, herramientas especializadas para cálculo de cobertura y registros de esfuerzo (horas-persona), lo que permitirá **comparar objetivamente los resultados** y determinar la **significancia estadística** de las diferencias observadas. El conjunto de estas técnicas, cuidadosamente seleccionadas y articuladas, proporcionará la **base empírica necesaria** para evaluar la hipótesis sobre la mejora en la eficiencia del proceso de validación mediante el MVP basado en IA, conectando directamente con los métodos empíricos descritos en la sección 2.5 y manteniendo la **coherencia metodológica** del estudio.
 
 ## 2.7. Instrumentos de Investigación
 
-Los instrumentos de investigación han sido seleccionados y diseñados específicamente para garantizar la recolección de datos precisos, objetivos y cuantificables, en coherencia con el enfoque cuantitativo y el diseño cuasi-experimental del estudio. A continuación, se describen los instrumentos que se utilizarán:
+Para la recolección de datos cuantitativos se utilizarán los siguientes instrumentos:
 
-### 2.7.1. Instrumentos para la Observación
+**1. Para la observación sistemática estructurada:**
+   - Fichas de observación con categorías predefinidas
+   - Cronómetros digitales para mediciones precisas de tiempo
+   - Escalas de valoración numérica (1-5) para variables operativas
+   - Tablas de registro de frecuencias de eventos medibles
+   - Sistema de registro automatizado para monitoreo de métricas
 
-**Ficha de Observación Estructurada**: Se diseñará una ficha con categorías predefinidas y escalas de medición para registrar el proceso de generación de casos de prueba. Este instrumento incluirá:
-- Cronómetro digital para mediciones precisas de tiempo.
-- Lista de verificación con indicadores observables específicos.
-- Escalas de valoración numérica (1-5) para aspectos como la fluidez del proceso, dificultades encontradas y consultas realizadas.
-- Tabla de registro de frecuencias para cuantificar eventos significativos durante el proceso.
+**2. Para técnicas de encuesta:**
+   - Cuestionario pre-implementación con datos demográficos y escalas numéricas
+   - Cuestionario post-implementación con indicadores de desempeño cuantificables (KPIs)
+   - Formularios estandarizados con preguntas cerradas
 
-**Registro Automatizado de Actividades**: Se implementará un software de monitoreo que registrará automáticamente:
-- Tiempos dedicados a cada fase del proceso.
-- Secuencia de acciones realizadas por los usuarios.
-- Número de iteraciones o reprocesos en la generación de casos de prueba.
-- Recursos computacionales utilizados (CPU, memoria, etc.).
+**3. Para análisis documental:**
+   - Matrices de registro para casos de prueba 
+   - Formularios de extracción de datos históricos
+   - Listas de verificación para análisis de artefactos técnicos
 
-### 2.7.2. Instrumentos para la Encuesta
+**4. Para experimentación controlada:**
+   - Protocolo experimental con tareas estandarizadas
+   - Formularios de registro de resultados experimentales
+   - Software estadístico profesional (R/SPSS) para análisis cuantitativo
+   - Matriz de operacionalización de variables
 
-**Cuestionario Pre-implementación del MVP**: Instrumento estructurado para establecer la línea base, con:
-- Datos demográficos y perfil profesional de los participantes.
-- Escala Likert (1-5) para medir percepciones sobre el proceso actual.
-- Preguntas cerradas sobre tiempos estimados para completar tareas específicas.
-- Preguntas de selección múltiple para identificar puntos críticos en el proceso.
+Todos los instrumentos serán validados mediante pruebas piloto y revisión técnica, asegurando la estandarización del proceso y la replicabilidad del estudio.
 
-**Cuestionario Post-implementación del MVP**: Similar al anterior pero enfocado en la experiencia con el MVP:
-- Escala Likert (1-5) para medir la satisfacción con la herramienta.
-- Comparativa directa entre el método tradicional y el MVP.
-- Evaluación cuantitativa de la usabilidad mediante el System Usability Scale (SUS).
-- Preguntas sobre la intención de uso futuro y recomendación.
-
-### 2.7.3. Instrumentos para el Análisis Documental
-
-**Matriz de Registro para Casos de Prueba**: Formato estructurado para codificar características relevantes:
-- Identificación del caso (ID, fecha, autor).
-- Métricas de calidad (completitud, claridad, trazabilidad).
-- Métricas de eficacia (porcentaje de errores detectados, falsos positivos).
-- Estadísticas de uso y mantenimiento.
-
-**Formulario de Extracción de Datos Históricos**: Instrumento para sistematizar la recopilación de información histórica:
-- Indicadores de rendimiento de proyectos anteriores.
-- Métricas de calidad documentadas en ciclos previos.
-- Datos sobre tiempos y recursos invertidos en testing.
-- Indicadores de efectividad de las pruebas realizadas.
-
-### 2.7.4. Instrumentos para la Experimentación Controlada
-
-**Protocolo Experimental**: Documento detallado que especifica:
-- Tareas estandarizadas que realizarán tanto el grupo control como el experimental.
-- Variables a medir y técnicas de medición.
-- Procedimientos para controlar variables extrañas.
-- Cronograma y condiciones ambientales para los experimentos.
-
-**Formulario de Registro de Resultados Experimentales**: Instrumento para documentar:
-- Tiempos medidos en cada tarea asignada.
-- Cobertura de requisitos lograda en los casos generados.
-- Precisión y relevancia de los casos de prueba (evaluada por expertos).
-- Observaciones específicas durante la sesión experimental.
-
-### 2.7.5. Instrumentos para el Análisis de Datos
-
-**Software de Análisis Estadístico**: Se utilizará un paquete estadístico profesional (como SPSS, R o similar) para:
-- Cálculo de estadísticos descriptivos.
-- Pruebas de hipótesis (t-Student, ANOVA).
-- Análisis de correlación entre variables.
-- Generación de visualizaciones y gráficos comparativos.
-
-**Matriz de Operacionalización de Variables**: Instrumento que garantiza la correcta medición de las variables definidas:
-- Definición operacional de cada variable.
-- Indicadores específicos para cada dimensión.
-- Escalas de medición aplicadas.
-- Valores de referencia y umbrales para la interpretación.
-
-Todos estos instrumentos serán validados antes de su aplicación mediante pruebas piloto y revisión por expertos para garantizar su confiabilidad y validez. Adicionalmente, se documentarán los procedimientos detallados para su aplicación, asegurando la estandarización del proceso de recolección de datos y la posibilidad de replicación futura del estudio.
-
-
-## 2.8 Poblacion y muestra
+## 2.8 Población y muestra
 
 La población de esta investigación está constituida por todos los profesionales que integran los equipos ágiles de Patito SRL, incluyendo ingenieros de software, testers, analistas de calidad, scrum masters y product owners que participan en los procesos de validación y testing de software en todas las sedes de la empresa. También forma parte de la población toda la infraestructura tecnológica que soporta estos procesos, incluyendo las herramientas actuales de gestión de pruebas, los repositorios de código, las plataformas de integración continua, los entornos de desarrollo y las bases de datos de casos de prueba históricos que constituyen el ecosistema donde se implementará el MVP basado en IA para la identificación eficiente de casos de prueba.
 
@@ -479,6 +378,149 @@ Para la implementación del enfoque cuantitativo con diseño cuasi-experimental,
 
 La selección de la muestra responde a criterios de accesibilidad, representatividad de los diferentes roles y procesos de testing dentro de la organización, y factibilidad para la implementación controlada del MVP. Se han establecido criterios de inclusión que requieren que los participantes tengan al menos seis meses de experiencia en sus roles actuales y familiaridad con los procesos de validación de software de la empresa. Los proyectos seleccionados para la implementación experimental tienen características comparables en términos de tamaño (entre 100 y 150 historias de usuario), duración (ciclos de desarrollo de 3 meses) y dominio de negocio, lo que permitirá obtener resultados comparativos significativos sobre la eficiencia del MVP en contextos reales de desarrollo ágil dentro de Patito SRL.
 
+## 2.9 Análisis de Datos
+
+El proceso de análisis de datos en esta investigación se estructura bajo un enfoque estrictamente cuantitativo, respondiendo a la naturaleza cuasi-experimental del diseño metodológico y al paradigma positivista declarado. Este análisis está orientado a la validación empírica de la hipótesis planteada: demostrar que el producto mínimo viable basado en IA mejora significativamente la eficiencia en el proceso de validación de software, específicamente en la generación e identificación de casos de prueba en entornos ágiles de Patito SRL.
+
+El plan de análisis de datos se estructura en las siguientes fases secuenciales:
+
+### 2.9.1. Preparación y Limpieza de Datos
+
+1. **Organización de datos recolectados**: Los datos provenientes de los instrumentos descritos en la sección 2.7 (fichas de observación, cuestionarios, registros de tiempo, matrices de trazabilidad, etc.) serán compilados en bases de datos estructuradas, diferenciando claramente entre grupo experimental y grupo control.
+
+2. **Codificación y normalización**: Las variables medidas serán codificadas según el cuadro de operacionalización (Cuadro 1), aplicando procesos de normalización cuando sea necesario para garantizar la comparabilidad entre diferentes métricas.
+
+3. **Limpieza y tratamiento de valores atípicos**: Se realizará un análisis exploratorio para identificar valores atípicos (outliers) y datos faltantes. Los outliers serán evaluados para determinar si representan errores de medición o casos excepcionales. Se aplicarán técnicas estadísticas apropiadas para su tratamiento, como la winsorización o eliminación justificada.
+
+### 2.9.2. Análisis Descriptivo
+
+1. **Caracterización de la línea base**: Se calcularán estadísticos descriptivos (media, mediana, desviación estándar, rango) para todas las métricas relevantes del proceso actual (grupo control), estableciendo así los valores de referencia contra los cuales se comparará el rendimiento del MVP.
+
+2. **Caracterización del grupo experimental**: De igual manera, se procesarán estadísticamente los datos obtenidos durante la implementación del MVP con el grupo experimental, calculando los mismos estadísticos descriptivos para cada variable medida.
+
+3. **Representación gráfica comparativa**: Se generarán visualizaciones (diagramas de caja, gráficos de barras comparativos, gráficos de radar) que permitan contrastar visualmente el desempeño de ambos grupos en las dimensiones clave: tiempo/esfuerzo requerido, cobertura alcanzada y calidad/precisión de los casos identificados.
+
+### 2.9.3. Análisis Inferencial
+
+1. **Pruebas de hipótesis**: Para cada indicador clave de rendimiento definido en la operacionalización de variables, se realizarán pruebas estadísticas rigurosas:
+   
+   - **Pruebas t de Student para muestras independientes**: Para comparar las medias de variables continuas (como tiempo de generación) entre los grupos experimental y control.
+   
+   - **Pruebas U de Mann-Whitney**: Como alternativa no paramétrica cuando no se cumplan los supuestos de normalidad.
+   
+   - **ANOVA de un factor o Kruskal-Wallis**: Para comparaciones entre más de dos condiciones en caso de implementar variantes del MVP o analizar subgrupos dentro de la muestra.
+
+2. **Cálculo del tamaño del efecto**: Se utilizarán métricas como la d de Cohen para cuantificar la magnitud de las diferencias observadas, proporcionando una medida estandarizada del impacto práctico del MVP más allá de la significancia estadística.
+
+3. **Análisis de correlación**: Se examinarán las correlaciones entre los diferentes indicadores medidos para identificar posibles relaciones entre variables, como el vínculo entre la reducción de tiempo y el nivel de cobertura alcanzado.
+
+### 2.9.4. Análisis Multivariado (si aplica)
+
+1. **Regresión múltiple**: Para identificar qué factores o características específicas del MVP tienen mayor influencia en la mejora de la eficiencia, controlando por posibles variables confusoras como la experiencia del equipo o la complejidad del proyecto.
+
+2. **Análisis de componentes principales**: Para reducir la dimensionalidad de múltiples métricas interrelacionadas y obtener una visión más clara de los patrones subyacentes en los datos de rendimiento.
+
+### 2.9.5. Validación e Interpretación
+
+1. **Verificación de validez interna**: Se analizarán posibles amenazas a la validez interna del experimento, como la historia, maduración o efecto de prueba, utilizando métodos estadísticos para controlar estos factores cuando sea posible.
+
+2. **Integración de resultados cuantitativos**: Se realizará una síntesis de todos los hallazgos estadísticos para responder claramente a la pregunta de investigación y contrastar la hipótesis planteada.
+
+3. **Interpretación contextualizada**: Los resultados estadísticos serán interpretados en el contexto específico de Patito SRL, considerando las implicaciones prácticas para la implementación y escalamiento futuro del MVP.
+
+### 2.9.6. Herramientas de Análisis
+
+Para la ejecución del plan de análisis de datos se utilizará el software estadístico R (versión 4.2.0 o superior) con sus paquetes especializados, complementado con SPSS (versión 28) para análisis específicos. La visualización de datos se realizará principalmente mediante las librerías ggplot2 y plotly de R, asegurando representaciones gráficas claras y rigurosas de los resultados.
+
+Este enfoque analítico garantiza que la evaluación de la eficiencia del MVP basado en IA para la generación de casos de prueba se realice con el máximo rigor científico, aprovechando tanto estadísticas descriptivas como inferenciales para producir evidencia sólida y cuantificable que permita validar o refutar la hipótesis de investigación planteada.
+
+## 2.10 Cronograma de Investigación
+
+La ejecución del proyecto de investigación se estructura en fases secuenciales que abarcan desde el diagnóstico inicial hasta la implementación, evaluación y escalamiento del MVP. Este cronograma detallado se alinea con los objetivos específicos planteados en la sección 3.2 y con la metodología cuasi-experimental descrita anteriormente. La planificación temporal considera la necesidad de rigor metodológico y los requerimientos específicos de un desarrollo tecnológico basado en IA en un entorno empresarial real.
+
+### 2.10.1. Fases del Proyecto
+
+**Fase 1: Diagnóstico y Planificación** (Enero - Febrero 2025)
+- Diagnóstico detallado del proceso actual de generación de casos de prueba (OE1)
+- Definición de métricas e indicadores de línea base
+- Recolección de datos iniciales mediante observación y encuestas
+- Análisis de requisitos para el MVP
+
+**Fase 2: Diseño del MVP** (Marzo - Abril 2025)
+- Definición de la arquitectura técnica del MVP basado en IA (OE2)
+- Selección de algoritmos de Machine Learning y NLP a implementar
+- Diseño de la interfaz de usuario y puntos de integración con flujos ágiles
+- Validación del diseño con stakeholders clave de Patito SRL
+
+**Fase 3: Desarrollo del MVP** (Mayo - Julio 2025)
+- Implementación de los componentes de IA para análisis de requisitos
+- Desarrollo de módulos para generación automática de casos de prueba
+- Integración con sistemas existentes en Patito SRL
+- Pruebas unitarias y de integración del MVP
+
+**Fase 4: Implementación Experimental** (Agosto - Septiembre 2025)
+- Capacitación a los equipos experimentales (OE3)
+- Puesta en producción controlada del MVP
+- Ejecución del diseño cuasi-experimental (grupo control vs. experimental)
+- Recolección sistemática de datos de rendimiento
+
+**Fase 5: Evaluación y Análisis** (Octubre - Noviembre 2025)
+- Procesamiento de datos recolectados (OE4)
+- Análisis estadístico comparativo según lo definido en la sección 2.9
+- Evaluación de la mejora en eficiencia según indicadores establecidos
+- Documentación de hallazgos y limitaciones
+
+**Fase 6: Plan de Escalamiento y Cierre** (Diciembre 2025)
+- Elaboración del plan de escalamiento del MVP (OE5)
+- Presentación de resultados a los directivos de Patito SRL
+- Documentación final y transferencia de conocimiento
+- Redacción de publicaciones científicas sobre los resultados
+
+### 2.10.2. Diagrama de Gantt del Proyecto
+
+| **Actividad / Mes (2025)** | **Ene** | **Feb** | **Mar** | **Abr** | **May** | **Jun** | **Jul** | **Ago** | **Sep** | **Oct** | **Nov** | **Dic** |
+|:--------------------------|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
+| **FASE 1: Diagnóstico y Planificación** |||||||||||||
+| Diagnóstico del proceso actual | ✓ | ✓ ||||||||||
+| Definición de métricas base | ✓ | ✓ ||||||||||
+| Recolección de datos iniciales || ✓ ||||||||||
+| Análisis de requisitos para MVP || ✓ | ✓ |||||||||
+| **FASE 2: Diseño del MVP** |||||||||||||
+| Definición de arquitectura ||| ✓ | ✓ ||||||||
+| Selección de algoritmos IA ||| ✓ | ✓ ||||||||
+| Diseño de interfaz de usuario ||| ✓ | ✓ ||||||||
+| Validación del diseño |||| ✓ ||||||||
+| **FASE 3: Desarrollo del MVP** |||||||||||||
+| Implementación componentes IA |||| ✓ | ✓ | ✓ ||||||
+| Desarrollo módulos generación ||||| ✓ | ✓ | ✓ |||||
+| Integración con sistemas existentes |||||| ✓ | ✓ |||||
+| Pruebas unitarias e integración ||||||| ✓ |||||
+| **FASE 4: Implementación Experimental** |||||||||||||
+| Capacitación de equipos |||||||| ✓ ||||
+| Puesta en producción controlada |||||||| ✓ ||||
+| Ejecución del diseño experimental |||||||| ✓ | ✓ |||
+| Recolección de datos de rendimiento |||||||| ✓ | ✓ |||
+| **FASE 5: Evaluación y Análisis** |||||||||||||
+| Procesamiento de datos ||||||||| ✓ | ✓ ||
+| Análisis estadístico comparativo ||||||||| ✓ | ✓ ||
+| Evaluación de mejora en eficiencia |||||||||| ✓ | ✓ |
+| Documentación de hallazgos |||||||||| ✓ | ✓ |
+| **FASE 6: Plan de Escalamiento y Cierre** |||||||||||||
+| Elaboración plan de escalamiento ||||||||||| ✓ |
+| Presentación de resultados ||||||||||| ✓ |
+| Documentación final ||||||||||| ✓ | ✓ |
+| Redacción de publicaciones científicas ||||||||||| ✓ | ✓ |
+
+### 2.10.3. Consideraciones para la Ejecución del Cronograma
+
+El cronograma diseñado contempla holguras estratégicas del 15% en cada fase para absorber posibles retrasos derivados de:
+
+- Complejidades técnicas imprevistas en el desarrollo del componente de IA
+- Disponibilidad limitada de recursos humanos en momentos específicos
+- Necesidad de iteraciones adicionales en el diseño o desarrollo del MVP
+- Adaptaciones necesarias en los instrumentos de medición
+
+Adicionalmente, se establecen hitos de control y revisión al final de cada fase, donde el equipo de investigación y representantes clave de Patito SRL evaluarán el progreso, los resultados intermedios y realizarán los ajustes necesarios para garantizar el cumplimiento de los objetivos. Esta planificación flexible pero rigurosa está alineada con los principios ágiles que caracterizan a la organización donde se implementará el MVP.
 
 # Referencias Bibliográficas
 
@@ -502,7 +544,25 @@ Weyuker, E. J. (1998). Testing component-based software: A cautionary tale. *IEE
 
 # Bibliografía
 
-[in progress]
+Smith, A. L., Black, R., Davenport, J., Olszewska, J., Rößler, J., & Wright, J. (2022). *Artificial Intelligence and Software Testing: Building systems you can trust*. BCS, The Chartered Institute for IT.
+
+Kaner, C., Bach, J., & Pettichord, B. (2021). *Lessons Learned in Software Testing: A Context-Driven Approach* (2nd ed.). Wiley.
+
+Kinsbruner, E. (2023). *Continuous Testing for DevOps Professionals: A Practical Guide From Industry Experts* (3rd ed.). Packt Publishing.
+
+Axelrod, A. (2022). *Complete Guide to Test Automation: Techniques, Practices, and Patterns for Building and Maintaining Effective Software Projects* (2nd ed.). Apress.
+
+Graham, D., Black, R., & van Veenendaal, E. (2023). *Foundations of Software Testing ISTQB Certification* (5th ed.). Cengage Learning.
+
+Khorikov, V. (2022). *Unit Testing: Principles, Practices, and Patterns for AI-Enhanced Software*. Manning Publications.
+
+Winter, A., & Meaney, R. (2023). *Team Guide to Software Testability: Better software through greater testability and AI adoption*. O'Reilly Media.
+
+Crispin, L., & Gregory, J. (2023). *Agile Testing: A Practical Guide for Testers and Agile Teams in the AI Era*. Addison-Wesley Professional.
+
+Knott, D. (2024). *Hands-On Mobile App Testing with AI: A guide for mobile testers and anyone involved in the mobile app business* (3rd ed.). Packt Publishing.
+
+Dosaj, C. R. (2023). *The Self-Taught Software Tester in the Age of AI: A Step By Step Guide to Learn Software Testing Using Real-Life Projects*. Independently published.
 
 # Anexos
 
