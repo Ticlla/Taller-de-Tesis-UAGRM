@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Tesis - IA para Generación de Casos de Prueba</title>
+    <style>
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2c3e50;
+            --accent-color: #e74c3c;
+            --light-color: #ecf0f1;
+            --dark-color: #34495e;
+            --success-color: #2ecc71;
+            --text-color: #333;
+            --background-color: #f9f9f9;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        header h1 {
+            margin: 0;
+            font-size: 2.2em;
+            padding: 10px 20px;
+        }
+        
+        nav {
+            background-color: var(--primary-color);
+            padding: 10px 0;
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        nav li {
+            margin: 0 10px;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 15px;
+            display: block;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+        
+        main {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        section {
+            margin-bottom: 30px;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            color: var(--secondary-color);
+        }
+        
+        h2 {
+            border-bottom: 2px solid var(--light-color);
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+        
+        p {
+            text-align: justify;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: var(--light-color);
+            color: var(--dark-color);
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        
+        footer {
+            background-color: var(--secondary-color);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+        
+        .highlight {
+            background-color: #ffffcc;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        
+        .objetivos-list li {
+            margin-bottom: 10px;
+        }
+
+        /* Estilos para hipervínculos */
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Estilos para la navegación por pestañas */
+        .tabs {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+        
+        .tab-btn {
+            background-color: var(--light-color);
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-weight: bold;
+            border-radius: 5px 5px 0 0;
+            margin-right: 2px;
+        }
+        
+        .tab-btn.active {
+            background-color: var(--primary-color);
+            color: white;
+        }
+        
+        .tab-content {
+            display: none;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 0 5px 5px 5px;
+            background-color: white;
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+        
+        /* Botón para volver arriba */
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: var(--accent-color);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            cursor: pointer;
+            display: none;
+            z-index: 999;
+            font-size: 20px;
+        }
+        
+        /* Estilo para imprimir */
+        @media print {
+            nav, .back-to-top {
+                display: none;
+            }
+            
+            body, main {
+                background-color: white;
+                color: black;
+            }
+            
+            main {
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Desarrollo y Evaluación de un Producto Mínimo Viable basado en Inteligencia Artificial para la Generación Eficiente de Identificación de Casos de Pruebas en Equipos Ágiles</h1>
+            <p>Empresa Patito SRL - Gestión 2025</p>
+        </div>
+    </header>
+    
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#introduccion">Introducción</a></li>
+                <li><a href="#antecedentes">Antecedentes</a></li>
+                <li><a href="#problema">Problema</a></li>
+                <li><a href="#objetivos">Objetivos</a></li>
+                <li><a href="#justificacion">Justificación</a></li>
+                <li><a href="#marco-teorico">Marco Teórico</a></li>
+                <li><a href="#metodologia">Metodología</a></li>
+                <li><a href="#cronograma">Cronograma</a></li>
+                <li><a href="#referencias">Referencias</a></li>
+                <li><a href="#anexos">Anexos</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <main>
+            <section id="introduccion">
+                <h2>Introducción</h2>
+                <p>En la era digital actual, la agilidad y la innovación son factores críticos para mantener la competitividad en el desarrollo de software. Con la creciente complejidad de las aplicaciones y la necesidad de lanzamientos rápidos, la generación y validación de casos de prueba se ha vuelto esencial para garantizar la calidad del producto final. Según el artículo "The Future of Software Testing: AI-Powered Test Case Generation and Validation" (Baqar & Khanda, 2024), la integración de la inteligencia artificial (IA) en el proceso de testing permite ampliar la cobertura de pruebas y reducir significativamente los tiempos de validación, ofreciendo una ventaja competitiva en entornos ágiles.</p>
+                
+                <p>Los equipos ágiles enfrentan el desafío de generar manualmente casos de prueba que se ajusten a ciclos de desarrollo cortos y en constante cambio. Esta práctica tradicional puede provocar retrasos, errores y una cobertura insuficiente, afectando la calidad del software. Estudios recientes indican que la automatización impulsada por IA no solo optimiza estos procesos, sino que también reduce la incidencia de errores humanos, mejorando la precisión en la detección de defectos (Ramadan, Yasin, & Pektas, 2024).</p>
+                
+                <p>En respuesta a esta problemática, el proyecto <strong>"Desarrollo y Evaluación de un Producto Mínimo Viable basado en Inteligencia Artificial para la Generación Eficiente de Identificación de Casos de Pruebas en Equipos Ágiles en la Empresa Patito SRL en la gestión 2025"</strong> se plantea como una solución innovadora. La propuesta se orienta a desarrollar y evaluar experimentalmente un producto mínimo viable basado en IA para la generación y validación de casos de prueba, permitiendo a los equipos ágiles reducir la carga manual, minimizar costos y mejorar la cobertura y calidad de las pruebas.</p>
+            </section>
+            
+            <section id="antecedentes">
+                <h2>Antecedentes del problema</h2>
+                <p>La inteligencia artificial (IA) está revolucionando múltiples áreas del desarrollo de software, especialmente en el <strong>aseguramiento de la calidad.</strong> Uno de los aspectos donde más impacto ha tenido es en la generación automática de casos de prueba, una actividad crítica para garantizar la robustez de los sistemas desarrollados. En paralelo, las metodologías ágiles, ampliamente adoptadas por las empresas modernas, exigen rapidez, adaptabilidad y eficiencia en todos los procesos.</p>
+                
+                <p>En su análisis sobre pruebas de software impulsadas por IA, Aufiero Informática (2023) señala que "las herramientas basadas en inteligencia artificial permiten generar casos de prueba a partir de modelos, datos históricos o incluso mediante técnicas de aprendizaje automático". Este enfoque permite una mayor cobertura en menos tiempo, <strong>reduciendo el esfuerzo manual.</strong></p>
+                
+                <p>Por otro lado, Certiprof (2023) destaca que "la convergencia entre la inteligencia artificial y las metodologías ágiles permite automatizar tareas repetitivas, analizar grandes volúmenes de datos y mejorar la toma de decisiones en tiempo real". Esto sugiere que, más allá de la automatización de pruebas, la IA también puede facilitar la planificación y gestión del trabajo en equipos ágiles.</p>
+                
+                <p>El estudio de Khan y Ali (2023) sobre el framework <em>TestLab</em> plantea una propuesta integral para automatizar pruebas utilizando IA. Los autores afirman que "la combinación de generación, ejecución y análisis de pruebas en un solo entorno inteligente mejora la retroalimentación continua y la calidad del software".</p>
+            </section>
+            
+            <section id="problema">
+                <h2>Formulación del problema</h2>
+                <p>¿Cómo el desarrollo y evaluación de un producto mínimo viable basado en Inteligencia Artificial puede contribuir a la Generación Eficiente de Identificación de Casos de Pruebas en los Equipos Ágiles de la empresa Patito SRL en Santa Cruz, Bolivia, durante la gestión 2025?</p>
+                
+                <h3>Objeto de estudio</h3>
+                <p>El desarrollo y evaluación de un producto mínimo viable para la Generación Eficiente de Identificación de Casos de Pruebas en Equipos Ágiles de la empresa Patito SRL en Santa Cruz, Bolivia.</p>
+                
+                <h3>Campo de acción</h3>
+                <p>La implementación experimental y validación del producto mínimo viable basado en Inteligencia Artificial para la Generación Eficiente de Identificación de Casos de Pruebas en los Equipos Ágiles de la empresa Patito SRL en Santa Cruz, Bolivia, durante la gestión 2025.</p>
+            </section>
+            
+            <section id="objetivos">
+                <h2>Objetivos de la investigación</h2>
+                
+                <h3>Objetivo General</h3>
+                <p>Desarrollar un producto mínimo viable basado en Inteligencia Artificial para la Generación Eficiente de Identificación de Casos de Pruebas en Equipos Ágiles, que demuestre la mejora significativa en la eficiencia del proceso de validación de software en la empresa Patito SRL durante la gestión 2025.</p>
+                
+                <h3>Objetivos Específicos</h3>
+                <ol class="objetivos-list">
+                    <li>Diagnosticar el estado actual del proceso de Generación de Identificación de Casos de Pruebas en los Equipos Ágiles de la empresa Patito SRL, identificando las principales problemáticas y oportunidades de mejora.</li>
+                    <li>Diseñar un producto mínimo viable para la Generación Eficiente de Identificación de Casos de Pruebas basado en técnicas de Inteligencia Artificial que atienda las necesidades específicas de los proyectos ágiles de la empresa.</li>
+                    <li>Implementar el producto mínimo viable diseñado, permitiendo la Generación Eficiente de Identificación de Casos de Pruebas en un entorno controlado.</li>
+                    <li>Evaluar experimentalmente el producto mínimo viable implementado en comparación con los métodos tradicionales, mediante métricas cuantitativas como tiempo de generación, cobertura y precisión.</li>
+                    <li>Establecer un plan de escalamiento para el producto mínimo viable basado en los resultados obtenidos durante la fase experimental en los Equipos Ágiles de la empresa Patito SRL.</li>
+                </ol>
+            </section>
+            
+            <section id="justificacion">
+                <h2>Justificación</h2>
+                
+                <h3>Justificación Teórica</h3>
+                <p>Este estudio aporta al campo teórico de la ingeniería de software al integrar conceptos avanzados de Inteligencia Artificial, particularmente el aprendizaje automático y el procesamiento de lenguaje natural, en el proceso de generación de casos de prueba. Dichas técnicas han sido discutidas por autores como Baqar y Khanda (2024), quienes destacan su potencial para transformar los procesos de aseguramiento de la calidad del software.</p>
+                
+                <h3>Justificación Práctica</h3>
+                <p>La investigación brinda una solución concreta a una necesidad operativa de la empresa Patito SRL a través del desarrollo de un producto mínimo viable para la Generación Eficiente de Identificación de Casos de Pruebas. Este producto permitirá reducir errores, acelerar los tiempos de desarrollo y aumentar la cobertura de validación.</p>
+                
+                <h3>Justificación Económica</h3>
+                <p>Desde el punto de vista económico, el desarrollo de un producto mínimo viable basado en IA representa una inversión inicial acotada que permitirá a Patito SRL evaluar los beneficios potenciales antes de comprometer mayores recursos. Este enfoque de validación empírica permite cuantificar con precisión la reducción de costos asociados a reprocesos, fallos en producción y retrasos en las entregas.</p>
+                
+                <h3>Justificación Metodológica</h3>
+                <p>La investigación se justifica metodológicamente al proponer un enfoque experimental basado en la construcción y evaluación de un producto mínimo viable. Se establecerán indicadores de rendimiento como tiempo promedio de generación, número de errores detectados y cobertura lograda, lo que permitirá comparar objetivamente los resultados obtenidos respecto a los métodos manuales tradicionales.</p>
+            </section>
+            
+            <section id="marco-teorico">
+                <h2>Marco teórico</h2>
+                <p>El marco teórico se estructura a partir de los siguientes núcleos conceptuales:</p>
+                <ul>
+                    <li><strong>Inteligencia Artificial:</strong> aprendizaje automático, procesamiento de lenguaje natural</li>
+                    <li><strong>Automatización en testing de software</strong></li>
+                    <li><strong>Enfoques ágiles de desarrollo</strong> (Scrum, XP)</li>
+                    <li><strong>Calidad del software</strong></li>
+                </ul>
+                
+                <p>El desarrollo del marco teórico contempla el análisis profundo de estos conceptos y su integración para fundamentar el desarrollo del producto mínimo viable. Se explorarán las técnicas de IA aplicables a la generación de casos de prueba, las mejores prácticas en automatización de testing y su adaptación a entornos ágiles.</p>
+            </section>
+            
+            <section id="metodologia">
+                <h2>Diseño metodológico</h2>
+                
+                <h3>Tipo, Enfoque y Alcance de la Investigación</h3>
+                <p>El tipo de investigación es <strong>propositivo</strong>, dado que busca desarrollar y evaluar una solución concreta (el MVP). El proyecto se desarrollará bajo un <strong>enfoque cuantitativo</strong>, desde la perspectiva del <strong>paradigma positivista</strong>. Esta elección se fundamenta en la necesidad de medir objetivamente los resultados y validar la hipótesis mediante datos numéricos.</p>
+                
+                <h3>Diseño de la Investigación</h3>
+                <p>La investigación seguirá un <strong>diseño cuasi-experimental</strong>, el cual es apropiado para evaluar el impacto de una intervención (el MVP) en un entorno real donde la asignación aleatoria de participantes a grupos puede no ser factible, permitiendo comparar grupos para determinar la efectividad de la solución propuesta.</p>
+                
+                <h3>Hipótesis</h3>
+                <p>Si se desarrolla un producto mínimo viable basado en Inteligencia Artificial para la Generación Eficiente de Identificación de Casos de Pruebas en Equipos Ágiles, entonces se demostrará una mejora significativa en la eficiencia del proceso de validación de software en la empresa Patito SRL durante la gestión 2025.</p>
+                
+                <h3>Variables</h3>
+                <p><strong>Variable independiente:</strong> Producto mínimo viable basado en Inteligencia Artificial para la Generación Eficiente de Identificación de Casos de Pruebas.</p>
+                <p><strong>Variable dependiente:</strong> Eficiencia en el proceso de validación de software en equipos ágiles.</p>
+                
+                <h3>Población y muestra</h3>
+                <p>La muestra está constituida por una selección no probabilística e intencional de cuatro equipos ágiles completos de la sede principal de Patito SRL, dos asignados al grupo experimental (que utilizarán el MVP) y dos al grupo de control (que mantendrán las metodologías tradicionales).</p>
+                
+                <h3>Análisis de Datos</h3>
+                <p>El proceso de análisis de datos en esta investigación se enmarca en un enfoque estrictamente cuantitativo, alineado con la naturaleza cuasi-experimental del diseño metodológico y el paradigma positivista adoptado. Este análisis está orientado a la validación empírica de la hipótesis: demostrar que el producto mínimo viable basado en IA mejora significativamente la eficiencia en la generación e identificación de casos de prueba en entornos ágiles de Patito SRL.</p>
+                
+                <p><strong>1. Preparación y procesamiento de datos.</strong> La fase inicial comprende la recolección sistemática de datos mediante fichas de observación, cuestionarios estructurados y registros de tiempo, abarcando tanto al grupo experimental como al grupo control. Estos datos serán sometidos a un riguroso proceso de codificación y digitalización según el cuadro de operacionalización de variables establecido, seguido por la normalización de las diferentes métricas para garantizar su comparabilidad en análisis posteriores. Se implementará un tratamiento estadístico de valores atípicos mediante técnicas como la winsorización cuando sea necesario, y toda la información será organizada en bases de datos estructuradas diseñadas específicamente para facilitar el análisis comparativo entre los métodos tradicionales y el MVP basado en IA.</p>
+                
+                <p><strong>2. Análisis estadístico.</strong> Una vez preparados los datos, se procederá con el cálculo de estadísticos descriptivos fundamentales (media, mediana, desviación estándar) para caracterizar el desempeño de ambos grupos, complementando estos resultados con representaciones gráficas mediante diagramas de caja, gráficos de barras comparativos y gráficos de radar que facilitarán la visualización de las diferencias. El análisis inferencial incluirá la aplicación de pruebas t de Student para muestras independientes comparando indicadores clave, implementando pruebas U de Mann-Whitney como alternativa cuando no se cumplan los requisitos de normalidad, y utilizando ANOVA de un factor o Kruskal-Wallis para comparaciones múltiples según se requiera. Se calculará el tamaño del efecto mediante la d de Cohen para cuantificar la magnitud real de las diferencias observadas, se realizarán análisis de correlación entre variables críticas como tiempo de generación y cobertura alcanzada, y se emplearán técnicas multivariadas como la regresión múltiple y el análisis de componentes principales cuando resulte pertinente para profundizar en las relaciones entre variables.</p>
+                
+                <p><strong>3. Validación e interpretación de resultados.</strong> La fase final del análisis comprende la verificación rigurosa de la validez interna del experimento mediante diversos controles estadísticos, seguida por la integración coherente de todos los hallazgos en una síntesis que responda directamente a la pregunta de investigación. Los resultados serán interpretados en el contexto específico de Patito SRL, considerando sus implicaciones prácticas para la implementación futura. Se evaluará tanto la significancia estadística como la relevancia práctica de las mejoras observadas con el MVP, documentando las limitaciones metodológicas que pudieran afectar la generalización de los resultados. Todo el proceso analítico se realizará utilizando software estadístico profesional como R (versión 4.2.0+) y SPSS (versión 28), aprovechando librerías especializadas como ggplot2 y plotly para la generación de visualizaciones avanzadas que comuniquen efectivamente los hallazgos.</p>
+                
+                <p>Este enfoque analítico integral garantiza que la evaluación de la eficiencia del producto mínimo viable basado en IA para la generación de casos de prueba se realice con el máximo rigor científico, produciendo evidencia sólida y cuantificable que permita validar o refutar la hipótesis de investigación planteada.</p>
+            </section>
+            
+            <section id="cronograma">
+                <h2>Cronograma de Investigación</h2>
+                <p>A continuación, se representa mediante un diagrama de Gantt la planificación, una aproximación tentativa del tiempo en que se desarrollará la investigación sobre el Producto Mínimo Viable basado en Inteligencia Artificial para la Generación Eficiente de Identificación de Casos de Pruebas en Equipos Ágiles. El proyecto se estructura en fases secuenciales correspondientes a los objetivos específicos planteados: diagnóstico de la situación actual, diseño de la solución propuesta, implementación del producto en entorno controlado, evaluación experimental comparativa y establecimiento del plan de escalamiento futuro. Este cronograma está sujeto a modificaciones por imprevistos o ajustes necesarios durante la evolución de la investigación, considerando la naturaleza dinámica tanto del desarrollo tecnológico como de los entornos ágiles donde se aplicará la solución.</p>
+                
+                <iframe src="Tareas/Tarea-6/gant.html" width="100%" height="600" frameborder="0"></iframe>
+                
+                <p><a href="Tareas/Tarea-6/gant.html" target="_blank">Ver cronograma en pantalla completa</a></p>
+            </section>
+            
+            <section id="referencias">
+                <h2>Referencias Bibliográficas</h2>
+                <ul>
+                    <li>Aufiero Informática. (2023). <em>Generación automática de casos de prueba con IA</em>. <a href="https://www.aufieroinformatica.com/generacion-de-casos-de-prueba-con-ia/" target="_blank">https://www.aufieroinformatica.com/generacion-de-casos-de-prueba-con-ia/</a></li>
+                    <li>Baqar, M., & Khanda, R. (2024, Septiembre 9). <em>The future of software testing: AI-powered test case generation and validation</em> [Preprint]. arXiv. <a href="https://doi.org/10.48550/arXiv.2409.05808" target="_blank">https://doi.org/10.48550/arXiv.2409.05808</a></li>
+                    <li>Certiprof. (2023). <em>La integración de la inteligencia artificial en metodologías ágiles</em>. <a href="https://certiprof.com/es/blogs/news/la-integracion-de-la-inteligencia-artificial-en-el-agil" target="_blank">https://certiprof.com/es/blogs/news/la-integracion-de-la-inteligencia-artificial-en-el-agil</a></li>
+                    <li>Guru99. (2024). <em>Las 10 mejores herramientas de pruebas de IA para la automatización de pruebas de software</em>. <a href="https://www.guru99.com/es/best-ai-testing-tools.html" target="_blank">https://www.guru99.com/es/best-ai-testing-tools.html</a></li>
+                    <li>Harman, M., & Clark, J. (2004). Metrics and methods for test data generation. <em>Journal of Systems and Software</em>, <em>73</em>(1), 65–81.</li>
+                    <li>Khan, M., & Ali, F. (2023). <em>TestLab: An Intelligent Automated Software Testing Framework</em>. arXiv preprint arXiv:2306.03602. <a href="https://arxiv.org/abs/2306.03602" target="_blank">https://arxiv.org/abs/2306.03602</a></li>
+                    <li>Li, Z., Harman, M., & Hierons, R. M. (2007). Search-based software testing for relational database applications. <em>Information and Software Technology</em>, <em>49</em>(4), 391–408.</li>
+                    <li>Ramadan, A., Yasin, H., & Pektas, B. (2024, Septiembre 4). <em>The role of artificial intelligence and machine learning in software testing</em> [Preprint]. arXiv. <a href="https://doi.org/10.48550/arXiv.2409.02693" target="_blank">https://doi.org/10.48550/arXiv.2409.02693</a></li>
+                    <li>Weyuker, E. J. (1998). Testing component-based software: A cautionary tale. <em>IEEE Software</em>, <em>15</em>(5), 52–59.</li>
+                </ul>
+                
+                <h3>Bibliografía</h3>
+                <ul>
+                    <li>Smith, A. L., Black, R., Davenport, J., Olszewska, J., Rößler, J., & Wright, J. (2022). <em>Artificial Intelligence and Software Testing: Building systems you can trust</em>. BCS, The Chartered Institute for IT.</li>
+                    <li>Kaner, C., Bach, J., & Pettichord, B. (2021). <em>Lessons Learned in Software Testing: A Context-Driven Approach</em> (2nd ed.). Wiley.</li>
+                    <li>Kinsbruner, E. (2023). <em>Continuous Testing for DevOps Professionals: A Practical Guide From Industry Experts</em> (3rd ed.). Packt Publishing.</li>
+                    <li>Axelrod, A. (2022). <em>Complete Guide to Test Automation: Techniques, Practices, and Patterns for Building and Maintaining Effective Software Projects</em> (2nd ed.). Apress.</li>
+                    <li>Graham, D., Black, R., & van Veenendaal, E. (2023). <em>Foundations of Software Testing ISTQB Certification</em> (5th ed.). Cengage Learning.</li>
+                    <li>Khorikov, V. (2022). <em>Unit Testing: Principles, Practices, and Patterns for AI-Enhanced Software</em>. Manning Publications.</li>
+                    <li>Winter, A., & Meaney, R. (2023). <em>Team Guide to Software Testability: Better software through greater testability and AI adoption</em>. O'Reilly Media.</li>
+                    <li>Crispin, L., & Gregory, J. (2023). <em>Agile Testing: A Practical Guide for Testers and Agile Teams in the AI Era</em>. Addison-Wesley Professional.</li>
+                    <li>Knott, D. (2024). <em>Hands-On Mobile App Testing with AI: A guide for mobile testers and anyone involved in the mobile app business</em> (3rd ed.). Packt Publishing.</li>
+                    <li>Dosaj, C. R. (2023). <em>The Self-Taught Software Tester in the Age of AI: A Step By Step Guide to Learn Software Testing Using Real-Life Projects</em>. Independently published.</li>
+                </ul>
+            </section>
+            
+            <section id="anexos">
+                <h2>Anexos</h2>
+                
+                <h3>Anexo 1. Matriz FODA de situación actual en Patito SRL</h3>
+                
+                <table class="foda-table">
+                    <thead>
+                        <tr>
+                            <th width="20%"></th>
+                            <th width="40%">Factores Internos</th>
+                            <th width="40%">Factores Externos</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Aspectos Positivos</strong></td>
+                            <td>
+                                <strong>FORTALEZAS (Strengths)</strong>
+                                <ul>
+                                    <li>Existencia de equipos trabajando con metodologías ágiles.</li>
+                                    <li>Iniciativas organizacionales previas o actuales enfocadas en mejorar la calidad del producto.</li>
+                                    <li>(Potencial) Conocimiento interno sobre los procesos de desarrollo y testing actuales.</li>
+                                    <li>(Potencial) Cultura organizacional que podría estar abierta a la experimentación (MVP).</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <strong>OPORTUNIDADES (Opportunities)</strong>
+                                <ul>
+                                    <li>Adopción creciente de herramientas de Inteligencia Artificial en el sector del testing.</li>
+                                    <li>Disponibilidad de tecnologías (bibliotecas, plataformas, frameworks) de IA y automatización compatibles con metodologías ágiles.</li>
+                                    <li>Posibilidad de lograr un posicionamiento competitivo regional a través de la innovación tecnológica en QA.</li>
+                                    <li>Acceso a investigaciones y estudios recientes (como los citados) que validan los beneficios de la IA en testing.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Aspectos Negativos</strong></td>
+                            <td>
+                                <strong>DEBILIDADES (Weaknesses)</strong>
+                                <ul>
+                                    <li>Dependencia significativa del esfuerzo humano y procesos manuales en la generación/identificación de casos de prueba.</li>
+                                    <li>Baja eficiencia operativa asociada a la falta de automatización avanzada en testing.</li>
+                                    <li>(Potencial) Carencia de personal interno con experiencia o especialización en técnicas avanzadas de IA (ML/NLP) aplicadas a testing.</li>
+                                    <li>(Potencial) Resistencia interna al cambio hacia nuevas metodologías o herramientas automatizadas.</li>
+                                    <li>Cobertura de pruebas actual posiblemente insuficiente y propensa a errores humanos.</li>
+                                    <li>Posibles cuellos de botella en la fase de validación/testing que generan retrasos en las entregas.</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <strong>AMENAZAS (Threats)</strong>
+                                <ul>
+                                    <li>Alta competencia regional en el sector de desarrollo de software y soluciones tecnológicas.</li>
+                                    <li>Rápida evolución tecnológica que puede llevar a la obsolescencia de las herramientas o enfoques si no hay adaptación continua.</li>
+                                    <li>(Potencial) Curva de aprendizaje y costos asociados a la adopción e integración de nuevas tecnologías de IA.</li>
+                                    <li>Cambios rápidos en los requisitos del mercado o de los clientes que exigen una adaptación constante de los procesos de testing.</li>
+                                    <li>(Potencial) Dependencia de proveedores externos para ciertas herramientas o tecnologías de IA.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p><strong>Fuente:</strong> Análisis basado en la información contextual del proyecto, 2024.</p>
+            </section>
+        </main>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 - Perfil de Tesis - Universidad Autónoma Gabriel René Moreno</p>
+        </div>
+    </footer>
+    
+    <button class="back-to-top" id="back-to-top">↑</button>
+    
+    <script>
+        // Función para mostrar/ocultar el botón "volver arriba"
+        window.onscroll = function() {
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                document.getElementById("back-to-top").style.display = "block";
+            } else {
+                document.getElementById("back-to-top").style.display = "none";
+            }
+        };
+        
+        // Función para volver arriba al hacer clic en el botón
+        document.getElementById("back-to-top").addEventListener("click", function() {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+    </script>
+</body>
+</html> 

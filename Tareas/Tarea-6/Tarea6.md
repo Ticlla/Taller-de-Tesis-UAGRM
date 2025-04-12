@@ -1,4 +1,4 @@
-lo25 # Título
+# Título
 Desarrollo y Evaluación de un Producto Mínimo Viable basado en Inteligencia Artificial para la Generación Eficiente de Identificación de Casos de Pruebas en Equipos Ágiles en la Empresa Patito SRL en la gestión 2025
 
 # Índice
@@ -35,6 +35,9 @@ Desarrollo y Evaluación de un Producto Mínimo Viable basado en Inteligencia Ar
   - [2.5. Métodos de Investigación](#25-métodos-de-investigación)
   - [2.6. Técnicas de Recolección de Datos de la Investigación](#26-técnicas-de-recolección-de-datos-de-la-investigación)
   - [2.7. Instrumentos de Investigación](#27-instrumentos-de-investigación)
+  - [2.8. Población y muestra](#28-población-y-muestra)
+  - [2.9. Análisis de Datos](#29-análisis-de-datos)
+  - [2.10. Cronograma de Investigación](#210-cronograma-de-investigación)
 - [Referencias Bibliográficas](#referencias-bibliográficas)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -380,59 +383,15 @@ La selección de la muestra responde a criterios de accesibilidad, representativ
 
 ## 2.9 Análisis de Datos
 
-El proceso de análisis de datos en esta investigación se estructura bajo un enfoque estrictamente cuantitativo, respondiendo a la naturaleza cuasi-experimental del diseño metodológico y al paradigma positivista declarado. Este análisis está orientado a la validación empírica de la hipótesis planteada: demostrar que el producto mínimo viable basado en IA mejora significativamente la eficiencia en el proceso de validación de software, específicamente en la generación e identificación de casos de prueba en entornos ágiles de Patito SRL.
+El proceso de análisis de datos en esta investigación se enmarca en un enfoque estrictamente cuantitativo, alineado con la naturaleza cuasi-experimental del diseño metodológico y el paradigma positivista adoptado. Este análisis está orientado a la validación empírica de la hipótesis: demostrar que el producto mínimo viable basado en IA mejora significativamente la eficiencia en la generación e identificación de casos de prueba en entornos ágiles de Patito SRL.
 
-El plan de análisis de datos se estructura en las siguientes fases secuenciales:
+**1. Preparación y procesamiento de datos.** La fase inicial comprende la recolección sistemática de datos mediante fichas de observación, cuestionarios estructurados y registros de tiempo, abarcando tanto al grupo experimental como al grupo control. Estos datos serán sometidos a un riguroso proceso de codificación y digitalización según el cuadro de operacionalización de variables establecido, seguido por la normalización de las diferentes métricas para garantizar su comparabilidad en análisis posteriores. Se implementará un tratamiento estadístico de valores atípicos mediante técnicas como la winsorización cuando sea necesario, y toda la información será organizada en bases de datos estructuradas diseñadas específicamente para facilitar el análisis comparativo entre los métodos tradicionales y el MVP basado en IA.
 
-### 2.9.1. Preparación y Limpieza de Datos
+**2. Análisis estadístico.** Una vez preparados los datos, se procederá con el cálculo de estadísticos descriptivos fundamentales (media, mediana, desviación estándar) para caracterizar el desempeño de ambos grupos, complementando estos resultados con representaciones gráficas mediante diagramas de caja, gráficos de barras comparativos y gráficos de radar que facilitarán la visualización de las diferencias. El análisis inferencial incluirá la aplicación de pruebas t de Student para muestras independientes comparando indicadores clave, implementando pruebas U de Mann-Whitney como alternativa cuando no se cumplan los requisitos de normalidad, y utilizando ANOVA de un factor o Kruskal-Wallis para comparaciones múltiples según se requiera. Se calculará el tamaño del efecto mediante la d de Cohen para cuantificar la magnitud real de las diferencias observadas, se realizarán análisis de correlación entre variables críticas como tiempo de generación y cobertura alcanzada, y se emplearán técnicas multivariadas como la regresión múltiple y el análisis de componentes principales cuando resulte pertinente para profundizar en las relaciones entre variables.
 
-1. **Organización de datos recolectados**: Los datos provenientes de los instrumentos descritos en la sección 2.7 (fichas de observación, cuestionarios, registros de tiempo, matrices de trazabilidad, etc.) serán compilados en bases de datos estructuradas, diferenciando claramente entre grupo experimental y grupo control.
+**3. Validación e interpretación de resultados.** La fase final del análisis comprende la verificación rigurosa de la validez interna del experimento mediante diversos controles estadísticos, seguida por la integración coherente de todos los hallazgos en una síntesis que responda directamente a la pregunta de investigación. Los resultados serán interpretados en el contexto específico de Patito SRL, considerando sus implicaciones prácticas para la implementación futura. Se evaluará tanto la significancia estadística como la relevancia práctica de las mejoras observadas con el MVP, documentando las limitaciones metodológicas que pudieran afectar la generalización de los resultados. Todo el proceso analítico se realizará utilizando software estadístico profesional como R (versión 4.2.0+) y SPSS (versión 28), aprovechando librerías especializadas como ggplot2 y plotly para la generación de visualizaciones avanzadas que comuniquen efectivamente los hallazgos.
 
-2. **Codificación y normalización**: Las variables medidas serán codificadas según el cuadro de operacionalización (Cuadro 1), aplicando procesos de normalización cuando sea necesario para garantizar la comparabilidad entre diferentes métricas.
-
-3. **Limpieza y tratamiento de valores atípicos**: Se realizará un análisis exploratorio para identificar valores atípicos (outliers) y datos faltantes. Los outliers serán evaluados para determinar si representan errores de medición o casos excepcionales. Se aplicarán técnicas estadísticas apropiadas para su tratamiento, como la winsorización o eliminación justificada.
-
-### 2.9.2. Análisis Descriptivo
-
-1. **Caracterización de la línea base**: Se calcularán estadísticos descriptivos (media, mediana, desviación estándar, rango) para todas las métricas relevantes del proceso actual (grupo control), estableciendo así los valores de referencia contra los cuales se comparará el rendimiento del MVP.
-
-2. **Caracterización del grupo experimental**: De igual manera, se procesarán estadísticamente los datos obtenidos durante la implementación del MVP con el grupo experimental, calculando los mismos estadísticos descriptivos para cada variable medida.
-
-3. **Representación gráfica comparativa**: Se generarán visualizaciones (diagramas de caja, gráficos de barras comparativos, gráficos de radar) que permitan contrastar visualmente el desempeño de ambos grupos en las dimensiones clave: tiempo/esfuerzo requerido, cobertura alcanzada y calidad/precisión de los casos identificados.
-
-### 2.9.3. Análisis Inferencial
-
-1. **Pruebas de hipótesis**: Para cada indicador clave de rendimiento definido en la operacionalización de variables, se realizarán pruebas estadísticas rigurosas:
-   
-   - **Pruebas t de Student para muestras independientes**: Para comparar las medias de variables continuas (como tiempo de generación) entre los grupos experimental y control.
-   
-   - **Pruebas U de Mann-Whitney**: Como alternativa no paramétrica cuando no se cumplan los supuestos de normalidad.
-   
-   - **ANOVA de un factor o Kruskal-Wallis**: Para comparaciones entre más de dos condiciones en caso de implementar variantes del MVP o analizar subgrupos dentro de la muestra.
-
-2. **Cálculo del tamaño del efecto**: Se utilizarán métricas como la d de Cohen para cuantificar la magnitud de las diferencias observadas, proporcionando una medida estandarizada del impacto práctico del MVP más allá de la significancia estadística.
-
-3. **Análisis de correlación**: Se examinarán las correlaciones entre los diferentes indicadores medidos para identificar posibles relaciones entre variables, como el vínculo entre la reducción de tiempo y el nivel de cobertura alcanzado.
-
-### 2.9.4. Análisis Multivariado (si aplica)
-
-1. **Regresión múltiple**: Para identificar qué factores o características específicas del MVP tienen mayor influencia en la mejora de la eficiencia, controlando por posibles variables confusoras como la experiencia del equipo o la complejidad del proyecto.
-
-2. **Análisis de componentes principales**: Para reducir la dimensionalidad de múltiples métricas interrelacionadas y obtener una visión más clara de los patrones subyacentes en los datos de rendimiento.
-
-### 2.9.5. Validación e Interpretación
-
-1. **Verificación de validez interna**: Se analizarán posibles amenazas a la validez interna del experimento, como la historia, maduración o efecto de prueba, utilizando métodos estadísticos para controlar estos factores cuando sea posible.
-
-2. **Integración de resultados cuantitativos**: Se realizará una síntesis de todos los hallazgos estadísticos para responder claramente a la pregunta de investigación y contrastar la hipótesis planteada.
-
-3. **Interpretación contextualizada**: Los resultados estadísticos serán interpretados en el contexto específico de Patito SRL, considerando las implicaciones prácticas para la implementación y escalamiento futuro del MVP.
-
-### 2.9.6. Herramientas de Análisis
-
-Para la ejecución del plan de análisis de datos se utilizará el software estadístico R (versión 4.2.0 o superior) con sus paquetes especializados, complementado con SPSS (versión 28) para análisis específicos. La visualización de datos se realizará principalmente mediante las librerías ggplot2 y plotly de R, asegurando representaciones gráficas claras y rigurosas de los resultados.
-
-Este enfoque analítico garantiza que la evaluación de la eficiencia del MVP basado en IA para la generación de casos de prueba se realice con el máximo rigor científico, aprovechando tanto estadísticas descriptivas como inferenciales para producir evidencia sólida y cuantificable que permita validar o refutar la hipótesis de investigación planteada.
+Este enfoque analítico integral garantiza que la evaluación de la eficiencia del producto mínimo viable basado en IA para la generación de casos de prueba se realice con el máximo rigor científico, produciendo evidencia sólida y cuantificable que permita validar o refutar la hipótesis de investigación planteada.
 
 ## 2.10 Cronograma de Investigación
 

@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagrama de Gantt - Proyecto MVP IA</title>
+    <style>
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2c3e50;
+            --accent-color: #e74c3c;
+            --light-color: #ecf0f1;
+            --dark-color: #34495e;
+            --success-color: #2ecc71;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f7fa;
+            color: var(--dark-color);
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 1600px; /* Aumentado para permitir más espacio */
+            margin: 0 auto;
+        }
+        
+        .container {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            padding: 20px; /* Reducido para ahorrar espacio */
+            margin-bottom: 30px;
+            width: 100%;
+            overflow: hidden; /* Previene scroll */
+        }
+        
+        h1 {
+            color: var(--secondary-color);
+            text-align: center;
+            margin-bottom: 15px; /* Reducido para ahorrar espacio */
+            font-size: 24px; /* Tamaño reducido */
+            border-bottom: 2px solid var(--light-color);
+            padding-bottom: 10px;
+        }
+        
+        .project-info {
+            margin-bottom: 15px; /* Reducido para ahorrar espacio */
+            padding: 10px;
+            background-color: var(--light-color);
+            border-radius: 6px;
+            font-size: 13px; /* Tamaño reducido */
+        }
+        
+        .gantt-table {
+            width: 100%;
+            border-collapse: collapse;
+            border-spacing: 0;
+            table-layout: fixed; /* Forzar tamaño fijo */
+        }
+        
+        .gantt-table th, .gantt-table td {
+            padding: 6px 2px; /* Reducido para ahorrar espacio */
+            text-align: center;
+            border: 1px solid #ddd;
+            font-size: 13px; /* Tamaño reducido */
+        }
+        
+        .gantt-table .activity {
+            text-align: left;
+            font-weight: 700;
+            color: var(--secondary-color);
+            width: 220px; /* Reducido para ahorrar espacio */
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        .gantt-table tr:nth-child(even) td {
+            background-color: rgba(236, 240, 241, 0.5);
+        }
+        
+        .gantt-table tr:hover td {
+            background-color: rgba(52, 152, 219, 0.1);
+        }
+        
+        .marker {
+            width: 15px; /* Reducido para ahorrar espacio */
+            height: 15px; /* Reducido para ahorrar espacio */
+            background-color: var(--primary-color);
+            border-radius: 50%;
+            margin: 0 auto;
+            position: relative;
+        }
+        
+        .marker::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 8px; /* Reducido para ahorrar espacio */
+            height: 8px; /* Reducido para ahorrar espacio */
+            background-color: white;
+            border-radius: 50%;
+        }
+        
+        .year-header {
+            background-color: var(--accent-color) !important;
+            color: white;
+            font-weight: bold;
+        }
+        
+        .month-header {
+            background-color: var(--secondary-color);
+            color: white;
+            width: auto; /* Ajustado automáticamente */
+            font-size: 12px; /* Tamaño reducido */
+        }
+        
+        .footer {
+            margin-top: 15px;
+            text-align: center;
+            font-size: 12px;
+            color: #7f8c8d;
+        }
+        
+        .legend {
+            display: flex;
+            justify-content: center;
+            margin: 10px 0; /* Reducido para ahorrar espacio */
+            flex-wrap: wrap;
+            font-size: 13px; /* Tamaño reducido */
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin: 0 10px;
+        }
+        
+        .legend-color {
+            width: 15px; /* Reducido para ahorrar espacio */
+            height: 15px; /* Reducido para ahorrar espacio */
+            border-radius: 50%;
+            margin-right: 5px;
+        }
+        
+        .legend-color.planning {
+            background-color: var(--primary-color);
+        }
+        
+        .legend-color.implementation {
+            background-color: var(--success-color);
+        }
+        
+        .legend-color.evaluation {
+            background-color: var(--accent-color);
+        }
+        
+        /* Fases del proyecto con diferentes colores */
+        .phase-1 .marker {
+            background-color: var(--primary-color);
+        }
+        
+        .phase-2 .marker {
+            background-color: var(--success-color);
+        }
+        
+        .phase-3 .marker {
+            background-color: var(--accent-color);
+        }
+        
+        /* Animación al cargar la página */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .container {
+            animation: fadeIn 0.6s ease-out;
+        }
+        
+        /* Ajuste responsivo mejorado */
+        @media print {
+            body {
+                padding: 0;
+                margin: 0;
+                background: white;
+                width: 100%;
+            }
+            
+            .container {
+                box-shadow: none;
+                padding: 0;
+                width: 100%;
+            }
+            
+            .gantt-table {
+                font-size: 10px;
+                width: 100%;
+            }
+        }
+        
+        /* Media query para pantallas pequeñas */
+        @media (max-width: 1200px) {
+            .gantt-table {
+                font-size: 11px;
+            }
+            
+            .gantt-table th, .gantt-table td {
+                padding: 4px 1px;
+            }
+            
+            .gantt-table .activity {
+                width: 180px;
+            }
+            
+            .marker {
+                width: 12px;
+                height: 12px;
+            }
+            
+            .marker::after {
+                width: 6px;
+                height: 6px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Diagrama de Gantt: Desarrollo y Evaluación de MVP basado en IA</h1>
+        
+        <div class="project-info">
+            <p><strong>Proyecto:</strong> Desarrollo de un MVP basado en IA para Generación de Casos de Pruebas en Equipos Ágiles - Patito SRL</p>
+            <p><strong>Periodo:</strong> Abril 2024 - Abril 2026</p>
+        </div>
+        
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-color planning"></div>
+                <span>Planificación y Diseño</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color implementation"></div>
+                <span>Implementación</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color evaluation"></div>
+                <span>Evaluación y Cierre</span>
+            </div>
+        </div>
+        
+        <table class="gantt-table">
+            <thead>
+                <tr>
+                    <th class="activity">ACTIVIDADES</th>
+                    <th colspan="9" class="year-header">2024</th>
+                    <th colspan="12" class="year-header">2025</th>
+                    <th colspan="4" class="year-header">2026</th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th class="month-header">ABR</th>
+                    <th class="month-header">MAY</th>
+                    <th class="month-header">JUN</th>
+                    <th class="month-header">JUL</th>
+                    <th class="month-header">AGO</th>
+                    <th class="month-header">SEP</th>
+                    <th class="month-header">OCT</th>
+                    <th class="month-header">NOV</th>
+                    <th class="month-header">DIC</th>
+                    <th class="month-header">ENE</th>
+                    <th class="month-header">FEB</th>
+                    <th class="month-header">MAR</th>
+                    <th class="month-header">ABR</th>
+                    <th class="month-header">MAY</th>
+                    <th class="month-header">JUN</th>
+                    <th class="month-header">JUL</th>
+                    <th class="month-header">AGO</th>
+                    <th class="month-header">SEP</th>
+                    <th class="month-header">OCT</th>
+                    <th class="month-header">NOV</th>
+                    <th class="month-header">DIC</th>
+                    <th class="month-header">ENE</th>
+                    <th class="month-header">FEB</th>
+                    <th class="month-header">MAR</th>
+                    <th class="month-header">ABR</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Fase 1: Planificación y Diseño -->
+                <tr class="phase-1">
+                    <td class="activity"><strong>Elaboración del perfil de tesis</strong></td>
+                    <td><div class="marker"></div></td>
+                    <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                    <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                    <td></td><td></td><td></td><td></td>
+                </tr>
+                <tr class="phase-1">
+                    <td class="activity"><strong>Presentación del perfil de tesis</strong></td>
+                    <td></td>
+                    <td><div class="marker"></div></td>
+                    <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                    <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                    <td></td><td></td><td></td><td></td>
+                </tr>
+                <tr class="phase-1">
+                    <td class="activity"><strong>Revisión por el tribunal</strong></td>
+                    <td></td><td></td>
+                    <td><div class="marker"></div></td>
+                    <td></td><td></td><td></td><td></td><td></td><td></td>
+                    <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                    <td></td><td></td><td></td><td></td>
+                </tr>
+                <tr class="phase-1">
+                    <td class="activity"><strong>Defensa ante el tribunal</strong></td>
+                    <td></td><td></td><td></td>
+                    <td><div class="marker"></div></td>
+                    <td></td><td></td><td></td><td></td><td></td>
+                    <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                    <td></td><td></td><td></td><td></td>
+                </tr>
+                <tr class="phase-1">
+                    <td class="activity"><strong>Elaboración del marco teórico</strong></td>
+                    <td></td><td></td><td></td>
+                    <td><div class="marker"></div></td>
+                    <td></td><td></td><td></td><td></td><td></td>
+                    <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                    <td></td><td></td><td></td><td></td>
+                </tr>
+                <tr class="phase-1">
+                    <td class="activity"><strong>Diagnóstico del estado actual</strong></td>
+                    <td></td><td></td><td></td><td></td>
+                    <td><div class="marker"></div></td>
+                    <td></td><td></td><td></td><td></td>
+                    <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                    <td></td><td></td><td></td><td></td>
+                </tr>
+                <tr class="phase-1">
+                    <td class="activity"><strong>Propuesta de solución</strong></td>
+                    <td></td><td></td><td></td><td></td><td></td>
+                    <td><div class="marker"></div></td>
+                    <td></td><td></td><td></td>
+                    <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                    <td></td><td></td><td></td><td></td>
+                </tr>
+                <tr class="phase-1">
+                    <td class="activity"><strong>Presentación del borrador inicial</strong></td>
+                    <td></td><td></td><td></td><td></td><td></td><td></td>
+                    <td><div class="marker"></div></td>
+                    <td></td><td></td>
+                    <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                    <td></td><td></td><td></td><td></td>
+                </tr>
+                <tr class="phase-1">
+                    <td class="activity"><strong>Revisión por el tribunal</strong></td>
+                    <td></td><td></td><td></td><td></td><td></td><td></td>
+                    <td><div class="marker"></div></td>
+                    <td></td><td></td>
+                    <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                    <td></td><td></td><td></td><td></td>
+                </tr>
+                <tr class="phase-1">
+                    <td class="activity"><strong>Correcciones finales</strong></td>
+                    <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                    <td><div class="marker"></div></td>
+                    <td></td>
+                    <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                    <td></td><td></td><td></td><td></td>
+                </tr>
+                <tr class="phase-1">
+                    <td class="activity"><strong>Preparación documento final</strong></td>
+                    <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                    <td><div class="marker"></div></td>
+                    <td><div class="marker"></div></td>
+                    <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                    <td></td><td></td><td></td><td></td>
+                </tr>
+                <tr class="phase-1">
+                    <td class="activity"><strong>Revisión final por el tribunal</strong></td>
+                    <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                    <td><div class="marker"></div></td>
+                    <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                    <td></td><td></td><td></td><td></td>
+                </tr>
+                <tr class="phase-1">
+                    <td class="activity"><strong>Ajustes pre-defensa</strong></td>
+                    <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                    <td><div class="marker"></div></td>
+                    <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                    <td></td><td></td><td></td><td></td>
+                </tr>
+                
+                <!-- Fase 2: Implementación -->
+                <tr class="phase-2">
+                    <td class="activity"><strong>Implementación en entorno real</strong></td>
+                    <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                    <td><div class="marker"></div></td>
+                    <td><div class="marker"></div></td>
+                    <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                    <td></td><td></td><td></td><td></td>
+                </tr>
+                <tr class="phase-2">
+                    <td class="activity"><strong>Evaluación y medición de resultados</strong></td>
+                    <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                    <td><div class="marker"></div></td>
+                    <td><div class="marker"></div></td>
+                    <td></td><td></td><td></td><td></td><td></td>
+                    <td></td><td></td><td></td><td></td>
+                </tr>
+                <tr class="phase-2">
+                    <td class="activity"><strong>Análisis de datos y validación</strong></td>
+                    <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                    <td><div class="marker"></div></td>
+                    <td><div class="marker"></div></td>
+                    <td></td><td></td><td></td>
+                    <td></td><td></td><td></td><td></td>
+                </tr>
+                <tr class="phase-2">
+                    <td class="activity"><strong>Elaboración de plan de escalamiento</strong></td>
+                    <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                    <td><div class="marker"></div></td>
+                    <td><div class="marker"></div></td>
+                    <td></td>
+                    <td></td><td></td><td></td><td></td>
+                </tr>
+                
+                <!-- Fase 3: Evaluación y Cierre -->
+                <tr class="phase-3">
+                    <td class="activity"><strong>Documentación final de resultados</strong></td>
+                    <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                    <td><div class="marker"></div></td>
+                    <td><div class="marker"></div></td>
+                    <td></td><td></td><td></td>
+                </tr>
+                <tr class="phase-3">
+                    <td class="activity"><strong>Preparación para defensa final</strong></td>
+                    <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                    <td><div class="marker"></div></td>
+                    <td><div class="marker"></div></td>
+                    <td></td>
+                </tr>
+                <tr class="phase-3">
+                    <td class="activity"><strong>Defensa final de tesis</strong></td>
+                    <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                    <td><div class="marker"></div></td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div class="footer">
+            <p>Fuente: Elaboración propia, 2024</p>
+        </div>
+    </div>
+</body>
+</html>
