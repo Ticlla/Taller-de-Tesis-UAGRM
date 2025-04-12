@@ -1,4 +1,4 @@
-# Título
+lo25 # Título
 Desarrollo y Evaluación de un Producto Mínimo Viable basado en Inteligencia Artificial para la Generación Eficiente de Identificación de Casos de Pruebas en Equipos Ágiles en la Empresa Patito SRL en la gestión 2025
 
 # Índice
@@ -436,7 +436,34 @@ Este enfoque analítico garantiza que la evaluación de la eficiencia del MVP ba
 
 ## 2.10 Cronograma de Investigación
 
-A continuación, se representa mediante un diagrama de Gantt la planificación tentativa del tiempo en que se desarrollará la investigación sobre el "Desarrollo y Evaluación de un Producto Mínimo Viable basado en Inteligencia Artificial para la Generación Eficiente de Identificación de Casos de Pruebas en Equipos Ágiles en la Empresa Patito SRL". La programación temporal propuesta abarca los doce meses del año 2025, distribuidos en cinco fases principales correspondientes a los objetivos específicos: diagnóstico (enero-febrero), diseño (marzo-abril), implementación (mayo-julio), evaluación experimental (agosto-octubre) y establecimiento del plan de escalamiento (noviembre-diciembre). Este cronograma está sujeto a modificaciones por imprevistos o ajustes necesarios durante la evolución de la investigación, particularmente en las fases de implementación y evaluación experimental que podrían requerir tiempos adicionales en función de los desafíos técnicos específicos y la disponibilidad de los equipos ágiles participantes.
+A continuación, se representa mediante un diagrama de Gantt la planificación, una aproximación tentativa del tiempo en que se desarrollará la investigación sobre el Producto Mínimo Viable basado en Inteligencia Artificial para la Generación Eficiente de Identificación de Casos de Pruebas en Equipos Ágiles. El proyecto se estructura en fases secuenciales correspondientes a los objetivos específicos planteados: diagnóstico de la situación actual, diseño de la solución propuesta, implementación del producto en entorno controlado, evaluación experimental comparativa y establecimiento del plan de escalamiento futuro. Este cronograma está sujeto a modificaciones por imprevistos o ajustes necesarios durante la evolución de la investigación, considerando la naturaleza dinámica tanto del desarrollo tecnológico como de los entornos ágiles donde se aplicará la solución.
+
+**Tabla 1. Cronograma de actividades para el desarrollo de la investigación**
+
+| ACTIVIDADES                       | ABR-24 | MAY-24 | JUN-24 | JUL-24 | AGO-24 | SEP-24 | OCT-24 | NOV-24 | DIC-24 | ENE-25 | FEB-25 | MAR-25 | ABR-25 | MAY-25 | JUN-25 | JUL-25 | AGO-25 | SEP-25 | OCT-25 | NOV-25 | DIC-25 | ENE-26 | FEB-26 | MAR-26 | ABR-26 |
+|-----------------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| Elaboración del perfil de tesis   | X      |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
+| Presentación del perfil de tesis  |        | X      |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
+| Revisión por el tribunal          |        |        | X      |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
+| Defensa ante el tribunal          |        |        |        | X      |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
+| Elaboración del marco teórico     |        |        |        | X      |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
+| Diagnóstico del estado actual     |        |        |        |        | X      |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
+| Propuesta de solución             |        |        |        |        |        | X      |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
+| Presentación del borrador inicial |        |        |        |        |        |        | X      |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
+| Revisión por el tribunal          |        |        |        |        |        |        | X      |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
+| Correcciones finales              |        |        |        |        |        |        |        | X      |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
+| Preparación documento final       |        |        |        |        |        |        |        |        | X      | X      |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
+| Revisión final por el tribunal    |        |        |        |        |        |        |        |        |        |        | X      |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
+| Ajustes pre-defensa               |        |        |        |        |        |        |        |        |        |        |        | X      |        |        |        |        |        |        |        |        |        |        |        |        |        |
+| Implementación en entorno real    |        |        |        |        |        |        |        |        |        |        |        |        | X      | X      |        |        |        |        |        |        |        |        |        |        |        |
+| Evaluación y medición de resultados|       |        |        |        |        |        |        |        |        |        |        |        |        |        | X      | X      |        |        |        |        |        |        |        |        |        |
+| Análisis de datos y validación    |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        | X      | X      |        |        |        |        |        |        |        |
+| Elaboración de plan de escalamiento|       |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        | X      | X      |        |        |        |        |        |
+| Documentación final de resultados |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        | X      | X      |        |        |        |
+| Preparación para defensa final    |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        | X      | X      |        |
+| Defensa final de tesis            |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        | X      |
+
+**Fuente:** Elaboración propia, 2024.
 
 # Referencias Bibliográficas
 
