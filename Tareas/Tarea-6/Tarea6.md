@@ -109,15 +109,13 @@ La situación problemática se enmarca en la contradicción entre el proceso act
 
 # 2. Formulación del problema
 
-¿Cómo el desarrollo y evaluación de un producto mínimo viable basado en Inteligencia Artificial puede contribuir a la Generación Eficiente de Identificación de Casos de Pruebas en los Equipos Ágiles de la empresa Patito SRL en Santa Cruz, Bolivia, durante la gestión 2025?
+¿Qué factores limitan la eficiencia en la generación e identificación de casos de prueba en los equipos ágiles de la empresa Patito SRL en Santa Cruz, Bolivia, durante la gestión 2025?
 
 ## 2.1. Objeto de estudio
-
-El desarrollo y evaluación de un producto mínimo viable para la Generación Eficiente de Identificación de Casos de Pruebas en Equipos Ágiles de la empresa Patito SRL en Santa Cruz, Bolivia.
+El proceso de generación e identificación de casos de prueba en los equipos ágiles de la empresa Patito SRL en Santa Cruz, Bolivia.
 
 ## 2.2. Campo de acción
-
-La implementación experimental y validación del producto mínimo viable basado en Inteligencia Artificial para la Generación Eficiente de Identificación de Casos de Pruebas en los Equipos Ágiles de la empresa Patito SRL en Santa Cruz, Bolivia, durante la gestión 2025.
+La eficiencia en la generación e identificación de casos de prueba para validación de software en los equipos ágiles de la empresa Patito SRL durante la gestión 2025.
 
 Su **alcance** se concreta en la **mejora del proceso de testing de software** en la empresa Patito SRL, específicamente enfocado en la **Generación Eficiente de Identificación de Casos de Pruebas** mediante el desarrollo y la evaluación experimental del producto mínimo viable basado en Inteligencia Artificial dentro de sus Equipos Ágiles, contextualizado en Santa Cruz, Bolivia, durante la gestión 2025.
 
@@ -129,15 +127,15 @@ Desarrollar un producto mínimo viable basado en Inteligencia Artificial para la
 
 ## 3.2. Objetivos Específicos
 
-1. Diagnosticar el estado actual del proceso de Generación de Identificación de Casos de Pruebas en los Equipos Ágiles de la empresa Patito SRL, identificando las principales problemáticas y oportunidades de mejora.
+1. Determinar los fundamentos teóricos y referentes conceptuales sobre la generación de casos de prueba en entornos ágiles y la aplicación de inteligencia artificial en procesos de testing.
 
-2. Diseñar un producto mínimo viable para la Generación Eficiente de Identificación de Casos de Pruebas basado en técnicas de Inteligencia Artificial que atienda las necesidades específicas de los proyectos ágiles de la empresa.
+2. Diagnosticar el estado actual del proceso de generación e identificación de casos de prueba en los equipos ágiles de la empresa Patito SRL, identificando principales problemáticas y oportunidades de mejora.
 
-3. Implementar el producto mínimo viable diseñado, permitiendo la Generación Eficiente de Identificación de Casos de Pruebas en un entorno controlado.
+3. Diseñar un producto mínimo viable para la generación eficiente de identificación de casos de prueba basado en técnicas de inteligencia artificial que atienda las necesidades específicas de los proyectos ágiles de la empresa.
 
-4. Evaluar experimentalmente el producto mínimo viable implementado en comparación con los métodos tradicionales, mediante métricas cuantitativas como tiempo de generación, cobertura y precisión.
+4. Implementar el producto mínimo viable diseñado en un entorno controlado.
 
-5. Establecer un plan de escalamiento para el producto mínimo viable basado en los resultados obtenidos durante la fase experimental en los Equipos Ágiles de la empresa Patito SRL.
+5. Evaluar experimentalmente el producto mínimo viable implementado en comparación con los métodos tradicionales, mediante métricas cuantitativas.
 
 # 4. Justificación
 
@@ -157,7 +155,7 @@ Desde el punto de vista económico, el desarrollo de un producto mínimo viable 
 
 ## 4.4. Justificación Metodológica
 
-La investigación se justifica metodológicamente al proponer un enfoque experimental basado en la construcción y evaluación de un producto mínimo viable para la Generación Eficiente de Identificación de Casos de Pruebas. Se establecerán indicadores de rendimiento como tiempo promedio de generación, número de errores detectados y cobertura lograda, lo que permitirá comparar objetivamente los resultados obtenidos respecto a los métodos manuales tradicionales. Este enfoque, fundamentado en la metodología científica, permite validar la hipótesis mediante evidencia empírica directa, en lugar de proyecciones teóricas. Para recolectar datos cuantificables, se utilizará la experimentación controlada como instrumento principal, garantizando la coherencia con el enfoque metodológico cuantitativo declarado. Esta metodología de validación empírica a través de un producto mínimo viable constituye un aporte significativo a las prácticas de investigación en el campo de la ingeniería de software.
+La propuesta de un producto mínimo viable basado en IA para la generación de casos de prueba aporta metodológicamente al incorporar un procedimiento sistemático y adaptativo para la identificación automatizada de escenarios de prueba. Este aporte metodológico se materializa en un flujo de trabajo que combina el análisis inteligente de requisitos, la generación automática basada en patrones históricos y la validación continua, superando las limitaciones de los enfoques manuales tradicionales. La metodología propuesta introduce un cambio paradigmático en cómo se conceptualizan, generan y gestionan los casos de prueba en entornos ágiles, ofreciendo un procedimiento replicable y escalable que puede extenderse a otros contextos organizacionales similares.
 
 ## 4.5. Justificación Personal
 
@@ -165,13 +163,13 @@ La motivación personal para realizar esta investigación surge del interés pro
 
 # 5. Formulación de la construcción teórica. Hipótesis para Defender
 
-Si se desarrolla un producto mínimo viable basado en Inteligencia Artificial para la Generación Eficiente de Identificación de Casos de Pruebas en Equipos Ágiles, entonces se demostrará una mejora significativa en la eficiencia del proceso de validación de software en la empresa Patito SRL durante la gestión 2025.
+Si se implementa un producto mínimo viable basado en Inteligencia Artificial para apoyar el proceso de generación e identificación de casos de prueba en equipos ágiles, entonces mejorará significativamente la eficiencia de dicho proceso en la empresa Patito SRL durante la gestión 2025.
 
 ## 5.1 Identificación de las variables
 
-**Variable independiente:** Producto mínimo viable basado en Inteligencia Artificial para la Generación Eficiente de Identificación de Casos de Pruebas.
+**Variable independiente:** Producto mínimo viable basado en Inteligencia Artificial para apoyar el proceso de generación e identificación de casos de prueba en equipos ágiles.
 
-**Variable dependiente:** Eficiencia en el proceso de validación de software en equipos ágiles.
+**Variable dependiente:** Eficiencia en la generación e identificación de casos de prueba en equipos ágiles.
 
 # Capítulo 1. Referentes teóricos
 
@@ -206,65 +204,41 @@ La fundamentación teórica que sustenta **cómo** se alcanzará el objetivo gen
 
 ## 1.2. Índice Detallado para el Desarrollo del Marco Teórico
 
-- **1.1. Fundamentos del Aseguramiento de la Calidad del Software**
-  - 1.1.1. Evolución Histórica del Testing de Software
-  - 1.1.2. Principios Fundamentales de la Calidad del Software (ISO/IEC 25010)
-  - 1.1.3. El Proceso de Testing: Niveles, Tipos y Técnicas
-    - 1.1.3.1. Pruebas Unitarias, de Integración, de Sistema y de Aceptación
-    - 1.1.3.2. Pruebas Funcionales y No Funcionales
-    - 1.1.3.3. Técnicas de Diseño de Casos de Prueba (Caja Negra, Caja Blanca, Experiencia)
-  - 1.1.4. Desafíos del Testing Manual en Proyectos Modernos
-
-- **1.2. Metodologías Ágiles de Desarrollo y su Impacto en el Testing**
-  - 1.2.1. Principios y Valores del Manifiesto Ágil
-  - 1.2.2. Frameworks Ágiles Comunes y su Aplicación en Patito SRL (si aplica)
-    - 1.2.2.1. Scrum: Roles, Eventos y Artefactos
-    - 1.2.2.2. Kanban: Flujo de Trabajo y Limitación del WIP
-    - 1.2.2.3. Extreme Programming (XP): Prácticas Clave
-  - 1.2.3. El Rol del Aseguramiento de Calidad (QA) en Equipos Ágiles
-    - 1.2.3.1. Testing Continuo e Integración Continua (CI/CD)
-    - 1.2.3.2. Automatización de Pruebas en Ciclos Cortos (Sprints)
-    - 1.2.3.3. Colaboración entre Desarrollo, QA y Negocio (BDD/ATDD como opción)
-  - 1.2.4. Retos Específicos del Testing en Contextos Ágiles (Velocidad, Cambios Frecuentes)
-
-- **1.3. Inteligencia Artificial Aplicada al Testing de Software**
-  - 1.3.1. Conceptos Fundamentales de Inteligencia Artificial Relevantes
-    - 1.3.1.1. Aprendizaje Automático (Machine Learning): Supervisado, No Supervisado, Reforzado
-    - 1.3.1.2. Procesamiento del Lenguaje Natural (NLP): Técnicas y Aplicaciones
-    - 1.3.1.3. Algoritmos de Búsqueda y Optimización
-  - 1.3.2. Aplicaciones de la IA en el Ciclo de Vida del Testing
-    - 1.3.2.1. Análisis Inteligente de Requisitos y Especificaciones
-    - 1.3.2.2. Generación Automática y Priorización de Casos de Prueba (Enfoque Principal)
-    - 1.3.2.3. Optimización de Suites de Pruebas (Reducción de Redundancia)
-    - 1.3.2.4. Detección Inteligente de Defectos y Análisis de Causa Raíz
-    - 1.3.2.5. Pruebas Auto-adaptativas y Auto-reparadoras
-  - 1.3.3. Técnicas Específicas de IA para la Generación/Identificación de Casos de Prueba
-    - 1.3.3.1. Generación Basada en Modelos (MBTG) con IA
-    - 1.3.3.2. Pruebas Basadas en Búsqueda (Search-Based Software Testing - SBST)
-    - 1.3.3.3. NLP para la Generación desde Requisitos en Lenguaje Natural
-    - 1.3.3.4. Aprendizaje por Refuerzo para Explorar Espacios de Prueba
-
-- **1.4. Medición de la Eficiencia y Efectividad en el Testing Automatizado con IA**
-  - 1.4.1. Métricas Tradicionales de Testing y su Adaptación
-    - 1.4.1.1. Cobertura de Código (Statement, Branch, Path, MC/DC)
-    - 1.4.1.2. Métricas de Defectos (Densidad, Tasa de Detección, Severidad)
-    - 1.4.1.3. Tiempo y Esfuerzo de Testing
-  - 1.4.2. Métricas Específicas para Evaluar Soluciones de Testing con IA
-    - 1.4.2.1. Calidad y Relevancia de los Casos de Prueba Generados
-    - 1.4.2.2. Tasa de Reducción de Esfuerzo Manual
-    - 1.4.2.3. Capacidad de Detección de Regresiones (Mutation Testing)
-    - 1.4.2.4. Adaptabilidad y Mantenibilidad de las Pruebas Generadas
-  - 1.4.3. Evaluación del Retorno de Inversión (ROI) de la Automatización Inteligente
-
-- **1.5. Estado del Arte: Herramientas y Casos de Estudio**
-  - 1.5.1. Panorama Actual de Herramientas de Testing con IA
-    - 1.5.1.1. Herramientas Comerciales (Ej: Testim, Applitools, Functionize, Mabl)
-    - 1.5.1.2. Herramientas y Librerías Open Source (Ej: TestProject, bibliotecas ML/NLP)
-    - 1.5.1.3. Frameworks de Investigación (Ej: TestLab citado)
-  - 1.5.2. Estudios de Caso Relevantes
-    - 1.5.2.1. Implementaciones Exitosas de IA en Testing Ágil
-    - 1.5.2.2. Desafíos y Lecciones Aprendidas en la Adopción
-- 1.5.3. Análisis Comparativo de Enfoques y Tecnologías
+- **1.1 Fundamentos del Aseguramiento de la Calidad del Software**
+  - 1.1.1 Evolución y principios
+    - Historia del testing
+    - Principios ISO/IEC
+  - 1.1.2 Técnicas de testing
+    - Pruebas unitarias
+    - Pruebas de integración
+- **1.2 Metodologías Ágiles y su Impacto en el Testing**
+  - 1.2.1 Principios ágiles
+    - Manifiesto y valores
+    - Adaptabilidad
+  - 1.2.2 Frameworks de QA
+    - Scrum
+    - XP
+- **1.3 Inteligencia Artificial en el Testing de Software**
+  - 1.3.1 ML y NLP
+    - Algoritmos principales
+    - Procesamiento de requisitos
+  - 1.3.2 Generación automática
+    - Basada en modelos
+    - Priorización
+- **1.4 Métricas de Eficiencia y Efectividad**
+  - 1.4.1 Cobertura y esfuerzo
+    - Cobertura de código
+    - Horas-hombre
+  - 1.4.2 Retorno de inversión
+    - Cálculo de ROI
+    - Reducción de costos
+- **1.5 Estado del Arte y Herramientas**
+  - 1.5.1 Comerciales
+    - Testim
+    - Applitools
+  - 1.5.2 Open-source
+    - TestProject
+    - Selenium
 
 # Capítulo 2. Diseño metodológico
 
@@ -318,9 +292,11 @@ La presente investigación, alineada con su enfoque cuantitativo y diseño cuasi
 
 **Métodos Teóricos:**
 
-- **Análisis-síntesis**: Método que consiste en la descomposición mental del objeto de estudio en sus partes constitutivas (análisis) y la posterior integración de éstas para estudiar de manera completa e integral las relaciones entre ellas y las características del fenómeno (síntesis).
+- **Análisis-síntesis:** descomponer el proceso de generación de casos de prueba en fases (requisitos → diseño → validación) y luego reensamblar estas etapas incorporando mejoras basadas en IA para optimizar el flujo completo.
 
-- **Hipotético-deductivo**: Procedimiento que parte de una hipótesis inferida de principios o leyes teóricas, para luego aplicar reglas de deducción, arribar a predicciones que se someten a verificación empírica, y, si hay correspondencia con los hechos, se comprueba la veracidad de la hipótesis inicial.
+- **Hipotético-deductivo:** partir de la hipótesis "el MVP reducirá el tiempo de generación en al menos 20 %", deducir predicciones concretas y verificarlas con datos experimentales usando pruebas estadísticas.
+
+- **Inducción:** extraer patrones y tendencias de datos históricos de casos de prueba previos para fundamentar el diseño y entrenamiento del MVP basado en IA.
 
 **Métodos Empíricos:**
 
@@ -383,15 +359,13 @@ La selección de la muestra responde a criterios de accesibilidad, representativ
 
 ## 2.9 Análisis de Datos
 
-El proceso de análisis de datos en esta investigación se enmarca en un enfoque estrictamente cuantitativo, alineado con la naturaleza cuasi-experimental del diseño metodológico y el paradigma positivista adoptado. Este análisis está orientado a la validación empírica de la hipótesis: demostrar que el producto mínimo viable basado en IA mejora significativamente la eficiencia en la generación e identificación de casos de prueba en entornos ágiles de Patito SRL.
+Se realizará un análisis cuantitativo centrado en los siguientes pasos:
 
-**1. Preparación y procesamiento de datos.** La fase inicial comprende la recolección sistemática de datos mediante fichas de observación, cuestionarios estructurados y registros de tiempo, abarcando tanto al grupo experimental como al grupo control. Estos datos serán sometidos a un riguroso proceso de codificación y digitalización según el cuadro de operacionalización de variables establecido, seguido por la normalización de las diferentes métricas para garantizar su comparabilidad en análisis posteriores. Se implementará un tratamiento estadístico de valores atípicos mediante técnicas como la winsorización cuando sea necesario, y toda la información será organizada en bases de datos estructuradas diseñadas específicamente para facilitar el análisis comparativo entre los métodos tradicionales y el MVP basado en IA.
+- Estadísticos descriptivos (media, mediana y desviación estándar) de las variables clave (tiempo de generación y cobertura de casos de prueba).
+- Prueba t de Student para muestras independientes (o prueba U de Mann-Whitney si no se cumple normalidad) para comparar los resultados entre el grupo control y el grupo experimental.
+- Representación gráfica de los resultados mediante gráficos de barras y diagramas de caja para facilitar la interpretación.
 
-**2. Análisis estadístico.** Una vez preparados los datos, se procederá con el cálculo de estadísticos descriptivos fundamentales (media, mediana, desviación estándar) para caracterizar el desempeño de ambos grupos, complementando estos resultados con representaciones gráficas mediante diagramas de caja, gráficos de barras comparativos y gráficos de radar que facilitarán la visualización de las diferencias. El análisis inferencial incluirá la aplicación de pruebas t de Student para muestras independientes comparando indicadores clave, implementando pruebas U de Mann-Whitney como alternativa cuando no se cumplan los requisitos de normalidad, y utilizando ANOVA de un factor o Kruskal-Wallis para comparaciones múltiples según se requiera. Se calculará el tamaño del efecto mediante la d de Cohen para cuantificar la magnitud real de las diferencias observadas, se realizarán análisis de correlación entre variables críticas como tiempo de generación y cobertura alcanzada, y se emplearán técnicas multivariadas como la regresión múltiple y el análisis de componentes principales cuando resulte pertinente para profundizar en las relaciones entre variables.
-
-**3. Validación e interpretación de resultados.** La fase final del análisis comprende la verificación rigurosa de la validez interna del experimento mediante diversos controles estadísticos, seguida por la integración coherente de todos los hallazgos en una síntesis que responda directamente a la pregunta de investigación. Los resultados serán interpretados en el contexto específico de Patito SRL, considerando sus implicaciones prácticas para la implementación futura. Se evaluará tanto la significancia estadística como la relevancia práctica de las mejoras observadas con el MVP, documentando las limitaciones metodológicas que pudieran afectar la generalización de los resultados. Todo el proceso analítico se realizará utilizando software estadístico profesional como R (versión 4.2.0+) y SPSS (versión 28), aprovechando librerías especializadas como ggplot2 y plotly para la generación de visualizaciones avanzadas que comuniquen efectivamente los hallazgos.
-
-Este enfoque analítico integral garantiza que la evaluación de la eficiencia del producto mínimo viable basado en IA para la generación de casos de prueba se realice con el máximo rigor científico, produciendo evidencia sólida y cuantificable que permita validar o refutar la hipótesis de investigación planteada.
+Este enfoque simplificado permite evaluar de forma clara y manejable la eficiencia del MVP en la generación de casos de prueba.
 
 ## 2.10 Cronograma de Investigación
 
