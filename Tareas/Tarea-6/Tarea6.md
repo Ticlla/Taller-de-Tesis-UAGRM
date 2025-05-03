@@ -26,7 +26,7 @@ Desarrollo y Evaluación de un Producto Mínimo Viable basado en Inteligencia Ar
     - [1.1.1. Objeto de estudio](#111-objeto-de-estudio)
     - [1.1.2. Campo de acción](#112-campo-de-acción)
     - [1.1.3. Cómo del objetivo general](#113-cómo-del-objetivo-general)
-  - [1.2. Índice Detallado para el Desarrollo del Marco Teórico](#12-índice-detallado-para-el-desarrollo-del-marco-teórico)
+  - [1.2. Índice Detallado para el Desarrollo del Marco Teórico Referencial](#12-índice-detallado-para-el-desarrollo-del-marco-teórico-referencial)
 - [Capítulo 2. Diseño metodológico](#capítulo-2-diseño-metodológico)
   - [2.1. Tipo, Enfoque y Alcance de la Investigación](#21-tipo-enfoque-y-alcance-de-la-investigación)
   - [2.2. Delimitación de la Investigación](#22-delimitación-de-la-investigación)
@@ -202,43 +202,34 @@ La **implementación y validación experimental del producto mínimo viable (MVP
 
 La fundamentación teórica que sustenta **cómo** se alcanzará el objetivo general – el desarrollo y evaluación del producto mínimo viable (MVP) – se basa en la integración de los pilares teóricos clave identificados: **Inteligencia Artificial** (con énfasis en aprendizaje automático y NLP), **Automatización en Testing de Software**, **Enfoques Ágiles de Desarrollo** y **Calidad del Software**. Estos núcleos teóricos, que emanan directamente del objeto de estudio (el MVP) y el campo de acción (su implementación experimental en Patito SRL), proporcionan el marco conceptual y técnico necesario. Esta integración garantiza que el MVP no solo se desarrolle sobre bases sólidas, sino que también se evalúe empíricamente su capacidad para lograr la **Generación Eficiente de Identificación de Casos de Pruebas**, abordando así directamente el objetivo general de la investigación.
 
-## 1.2. Índice Detallado para el Desarrollo del Marco Teórico
+## 1.2. Índice Detallado para el Desarrollo del Marco Teórico Referencial
 
-- **1.1 Fundamentos del Aseguramiento de la Calidad del Software**
-  - 1.1.1 Evolución y principios
-    - Historia del testing
-    - Principios ISO/IEC
-  - 1.1.2 Técnicas de testing
-    - Pruebas unitarias
-    - Pruebas de integración
-- **1.2 Metodologías Ágiles y su Impacto en el Testing**
-  - 1.2.1 Principios ágiles
-    - Manifiesto y valores
-    - Adaptabilidad
-  - 1.2.2 Frameworks de QA
-    - Scrum
-    - XP
-- **1.3 Inteligencia Artificial en el Testing de Software**
-  - 1.3.1 ML y NLP
-    - Algoritmos principales
-    - Procesamiento de requisitos
-  - 1.3.2 Generación automática
-    - Basada en modelos
-    - Priorización
-- **1.4 Métricas de Eficiencia y Efectividad**
-  - 1.4.1 Cobertura y esfuerzo
-    - Cobertura de código
-    - Horas-hombre
-  - 1.4.2 Retorno de inversión
-    - Cálculo de ROI
-    - Reducción de costos
-- **1.5 Estado del Arte y Herramientas**
-  - 1.5.1 Comerciales
-    - Testim
-    - Applitools
-  - 1.5.2 Open-source
-    - TestProject
-    - Selenium
+- **1.1 Estado del Arte de la Generación de Casos de Prueba en Entornos Ágiles**
+  - 1.1.1 Evolución histórica del testing de software
+  - 1.1.2 Transformación de las prácticas de prueba en metodologías ágiles
+  - 1.1.3 Tendencias actuales en la automatización de casos de prueba
+  - 1.1.4 Investigaciones recientes sobre la aplicación de IA en testing
+
+- **1.2 Fundamentos Teóricos del Aseguramiento de la Calidad del Software**
+  - 1.2.1 Teoría y principios del testing de software
+  - 1.2.2 Técnicas y estrategias de diseño de casos de prueba
+  - 1.2.3 Métricas de eficiencia y efectividad en el testing
+
+- **1.3 Metodologías Ágiles y su Integración con Procesos de Validación**
+  - 1.3.1 Principios y valores del desarrollo ágil
+  - 1.3.2 Marcos de trabajo para testing en entornos ágiles
+  - 1.3.3 Desafíos de la validación en ciclos cortos de desarrollo
+
+- **1.4 Inteligencia Artificial Aplicada al Testing de Software**
+  - 1.4.1 Fundamentos de Machine Learning y NLP en el contexto de pruebas
+  - 1.4.2 Técnicas de generación automática de casos de prueba con IA
+  - 1.4.3 Modelos de priorización inteligente para la validación de software
+
+- **1.5 Marco Normativo y Referencial de la Calidad del Software**
+  - 1.5.1 Estándares internacionales de calidad y testing (ISO/IEC 29119, IEEE 829)
+  - 1.5.2 Regulaciones regionales y normativas latinoamericanas
+  - 1.5.3 Marco regulatorio boliviano en el desarrollo y validación de software
+  - 1.5.4 Casos de referencia: implementaciones exitosas de soluciones basadas en IA para testing
 
 # Capítulo 2. Diseño metodológico
 
@@ -292,11 +283,11 @@ La presente investigación, alineada con su enfoque cuantitativo y diseño cuasi
 
 **Métodos Teóricos:**
 
-- **Análisis-síntesis:** descomponer el proceso de generación de casos de prueba en fases (requisitos → diseño → validación) y luego reensamblar estas etapas incorporando mejoras basadas en IA para optimizar el flujo completo.
+- **Análisis-síntesis:** Se aplicará este método para descomponer el proceso actual de generación de casos de prueba en sus componentes fundamentales (análisis de requisitos, identificación de escenarios, diseño de casos, priorización, validación), permitiendo estudiar cada fase de manera aislada. Posteriormente, se reensamblarán estas etapas (síntesis) incorporando las mejoras basadas en IA para construir un flujo optimizado. Este método será fundamental no solo en el marco teórico, sino también en el diseño del MVP, el análisis de los resultados experimentales y la formulación de conclusiones.
 
-- **Hipotético-deductivo:** partir de la hipótesis "el MVP reducirá el tiempo de generación en al menos 20 %", deducir predicciones concretas y verificarlas con datos experimentales usando pruebas estadísticas.
+- **Hipotético-deductivo:** Se utilizará para, a partir de la hipótesis general "la implementación del MVP basado en IA mejorará significativamente la eficiencia en la generación de casos de prueba", deducir predicciones específicas y verificables como "el MVP reducirá el tiempo de generación en al menos un 20%" o "aumentará la cobertura de pruebas en un 15%". Estas predicciones serán verificadas mediante datos experimentales y pruebas estadísticas comparativas entre los grupos control y experimental, permitiendo validar o refutar la hipótesis principal.
 
-- **Inducción:** extraer patrones y tendencias de datos históricos de casos de prueba previos para fundamentar el diseño y entrenamiento del MVP basado en IA.
+- **Inducción:** Se empleará para analizar los patrones y tendencias identificables en los datos históricos de casos de prueba previamente desarrollados en Patito SRL, extrapolando características comunes que fundamentarán tanto el diseño como el entrenamiento del MVP. Este método permitirá generalizar a partir de casos particulares, identificando los principios que rigen la generación efectiva de casos de prueba en el contexto específico de la empresa, información crucial tanto para el marco teórico como para la propuesta práctica.
 
 **Métodos Empíricos:**
 
