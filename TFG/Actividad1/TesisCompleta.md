@@ -1,4 +1,5 @@
-# ÍNDICE
+# Título
+Desarrollo y Evaluación de un Producto Mínimo Viable basado en Inteligencia Artificial para la Generación Eficiente de Identificación de Casos de Pruebas en Equipos Ágiles en la Empresa Patito SRL en la gestión 2025
 
 - [INTRODUCCIÓN](#introducción)
 - [1. Antecedentes del problema](#1-antecedentes-del-problema)
@@ -9,11 +10,6 @@
   - [3.1. Objetivo General](#31-objetivo-general)
   - [3.2. Objetivos Específicos](#32-objetivos-específicos)
 - [4. Justificación de la Investigación](#4-justificación-de-la-investigación)
-  - [4.1. Justificación Teórica](#41-justificación-teórica)
-  - [4.2. Justificación Práctica](#42-justificación-práctica)
-  - [4.3. Justificación Económica](#43-justificación-económica)
-  - [4.4. Justificación Metodológica](#44-justificación-metodológica)
-  - [4.5. Justificación Personal](#45-justificación-personal)
 - [5. Hipótesis para defender](#5-hipótesis-para-defender)
   - [5.1. Identificación de las variables](#51-identificación-de-las-variables)
 - [6. Diseño Metodológico](#6-diseño-metodológico)
@@ -24,24 +20,31 @@
   - [6.5. Instrumentos de Investigación](#65-instrumentos-de-investigación)
   - [6.6. Población y Muestra](#66-población-y-muestra)
   - [6.7. Análisis de los Datos](#67-análisis-de-los-datos)
-- [CAPÍTULO 1. MARCO TEÓRICO CONCEPTUAL](#capítulo-1-marco-teórico-conceptual)
-  - [1.1. Primer epígrafe del marco teórico](#11-primer-epígrafe-del-marco-teórico)
-    - [1.1.1. Subepígrafe](#111-subepígrafe)
-- [CAPÍTULO 2. DIAGNÓSTICO Y ANÁLISIS DE RESULTADOS](#capítulo-2-diagnóstico-y-análisis-de-resultados)
-  - [2.1. Acercamiento al contexto donde se investiga](#21-acercamiento-al-contexto-donde-se-investiga)
-  - [2.2. Procedimiento para el diagnóstico](#22-procedimiento-para-el-diagnóstico)
-    - [2.2.1. Definición Conceptual de las Variables](#221-definición-conceptual-de-las-variables)
-    - [2.2.2. Definición Operacional de las Variables](#222-definición-operacional-de-las-variables)
-    - [2.2.3. Instrumentos de Investigación para el diagnóstico](#223-instrumentos-de-investigación-para-el-diagnóstico)
-  - [2.3. Análisis de los resultados de la aplicación de los instrumentos](#23-análisis-de-los-resultados-de-la-aplicación-de-los-instrumentos)
-    - [2.3.1. Resultados de la Encuesta a xxx](#231-resultados-de-la-encuesta-a-xxx)
-  - [2.4. Triangulación metodológica. Problemas en el contexto o Requisitos de diseño](#24-triangulación-metodológica-problemas-en-el-contexto-o-requisitos-de-diseño)
-    - [2.4.1. Jerarquización de los problemas o Requisitos de diseño](#241-jerarquización-de-los-problemas-o-requisitos-de-diseño)
-- [CAPÍTULO 3. PROPUESTA Y VALIDACIÓN](#capítulo-3-propuesta-y-validación)
-  - [3.1. Esquema general de la propuesta](#31-esquema-general-de-la-propuesta)
-    - [3.1.1. Por qué del cómo del objetivo general](#311-por-qué-del-cómo-del-objetivo-general)
-  - [3.2. Desarrollo de la propuesta](#32-desarrollo-de-la-propuesta)
-  - [3.3. Validación de la propuesta](#33-validación-de-la-propuesta)
+
+## CAPÍTULO 1. MARCO TEÓRICO CONCEPTUAL
+
+- [1.1. Primer epígrafe del marco teórico](#11-primer-epígrafe-del-marco-teórico)
+  - [1.1.1. Subepígrafe](#111-subepígrafe)
+
+## CAPÍTULO 2. DIAGNÓSTICO Y ANÁLISIS DE RESULTADOS
+
+- [2.1. Acercamiento al contexto donde se investiga](#21-acercamiento-al-contexto-donde-se-investiga)
+- [2.2. Procedimiento para el diagnóstico](#22-procedimiento-para-el-diagnóstico)
+  - [2.2.1. Definición Conceptual de las Variables](#221-definición-conceptual-de-las-variables)
+  - [2.2.2. Definición Operacional de las Variables](#222-definición-operacional-de-las-variables)
+  - [2.2.3. Instrumentos de Investigación para el diagnóstico](#223-instrumentos-de-investigación-para-el-diagnóstico)
+- [2.3. Análisis de los resultados de la aplicación de los instrumentos](#23-análisis-de-los-resultados-de-la-aplicación-de-los-instrumentos)
+  - [2.3.1. Resultados de la Encuesta a xxx](#231-resultados-de-la-encuesta-a-xxx)
+- [2.4. Triangulación metodológica. Problemas en el contexto o Requisitos de diseño](#24-triangulación-metodológica-problemas-en-el-contexto-o-requisitos-de-diseño)
+  - [2.4.1. Jerarquización de los problemas o Requisitos de diseño](#241-jerarquización-de-los-problemas-o-requisitos-de-diseño)
+
+## CAPÍTULO 3. PROPUESTA Y VALIDACIÓN
+
+- [3.1. Esquema general de la propuesta](#31-esquema-general-de-la-propuesta)
+  - [3.1.1. Por qué del cómo del objetivo general](#311-por-qué-del-cómo-del-objetivo-general)
+- [3.2. Desarrollo de la propuesta](#32-desarrollo-de-la-propuesta)
+- [3.3. Validación de la propuesta](#33-validación-de-la-propuesta)
+
 - [CONCLUSIONES](#conclusiones)
 - [RECOMENDACIONES](#recomendaciones)
 - [REFERENCIAS BIBLIOGRÁFICAS](#referencias-bibliográficas)
@@ -49,6 +52,7 @@
 - [ANEXOS](#anexos)
 
 # INTRODUCCIÓN
+
 En la era digital actual, la agilidad y la innovación son factores críticos para mantener la competitividad en el desarrollo de software. Con la creciente complejidad de las aplicaciones y la necesidad de lanzamientos rápidos, la generación y validación de casos de prueba se ha vuelto esencial para garantizar la calidad del producto final. Según el artículo "The Future of Software Testing: AI-Powered Test Case Generation and Validation" (Baqar & Khanda, 2024), la integración de la inteligencia artificial (IA) en el proceso de testing permite ampliar la cobertura de pruebas y reducir significativamente los tiempos de validación, ofreciendo una ventaja competitiva en entornos ágiles.
 
 Los equipos ágiles enfrentan el desafío de generar manualmente casos de prueba que se ajusten a ciclos de desarrollo cortos y en constante cambio. Esta práctica tradicional puede provocar retrasos, errores y una cobertura insuficiente, afectando la calidad del software. Estudios recientes indican que la automatización impulsada por IA no solo optimiza estos procesos, sino que también reduce la incidencia de errores humanos, mejorando la precisión en la detección de defectos (Ramadan, Yasin, & Pektas, 2024).
@@ -60,6 +64,7 @@ El tema de investigación **"Desarrollo y Evaluación de un Producto Mínimo Via
 El objetivo principal es desarrollar un producto mínimo viable basado en IA que se integre en el flujo de trabajo ágil de la Empresa Patito SRL, facilitando la Generación Eficiente de Identificación de Casos de Pruebas. Este enfoque experimental no solo busca demostrar la mejora en los tiempos de desarrollo y entrega, sino también verificar la adaptabilidad de la solución frente a los cambios continuos en los requisitos. La investigación se fundamenta en la construcción y evaluación de un producto concreto que permita probar empíricamente cómo la Inteligencia Artificial puede transformar el ciclo de vida del software, elevando la calidad y la productividad de manera sostenible.
 
 # 1. Antecedentes del problema
+
 La inteligencia artificial (IA) está revolucionando múltiples áreas del desarrollo de software, especialmente en el **aseguramiento de la calidad.** Uno de los aspectos donde más impacto ha tenido es en la generación automática de casos de prueba, una actividad crítica para garantizar la robustez de los sistemas desarrollados. En paralelo, las metodologías ágiles, ampliamente adoptadas por las empresas modernas, exigen rapidez, adaptabilidad y eficiencia en todos los procesos. La integración de IA en entornos ágiles ofrece una oportunidad única para automatizar y mejorar la calidad de las pruebas de software. Este bloque de antecedentes revisa estudios relevantes sobre cómo estas tecnologías pueden aplicarse de manera efectiva en contextos similares al de la empresa Patito S.R.L.
 
 En su análisis sobre pruebas de software impulsadas por IA, Aufiero Informática (2023) señala que "las herramientas basadas en inteligencia artificial permiten generar casos de prueba a partir de modelos, datos históricos o incluso mediante técnicas de aprendizaje automático". Este enfoque permite una mayor cobertura en menos tiempo, **reduciendo el esfuerzo manual.** Este tipo de automatización podría ser adoptado por Patito S.R.L. para complementar los ciclos de prueba en sus equipos ágiles, permitiendo una validación más rápida de nuevas funcionalidades.
@@ -73,34 +78,28 @@ Finalmente, desde una perspectiva práctica, Guru99 (2024) identifica herramient
 En conjunto, las fuentes revisadas coinciden en que la integración de inteligencia artificial en el proceso de pruebas de software no solo es técnicamente viable, sino altamente beneficiosa, especialmente en entornos ágiles. El desarrollo y evaluación de un producto mínimo viable basado en estas tecnologías en Patito S.R.L. podría representar una mejora significativa en la calidad del software, la velocidad de entrega y la eficiencia del equipo. Estas evidencias justifican la necesidad de construir, implementar y evaluar experimentalmente un producto mínimo viable basado en IA que se adapte a las dinámicas ágiles de la organización.
 
 # 2. Formulación del problema
-¿Cómo el desarrollo y evaluación de un producto mínimo viable basado en Inteligencia Artificial puede contribuir a la Generación Eficiente de Identificación de Casos de Pruebas en los Equipos Ágiles de la empresa Patito SRL en Santa Cruz, Bolivia, durante la gestión 2025?
+¿Qué factores limitan la eficiencia en la generación e identificación de casos de prueba en los equipos ágiles de la empresa Patito SRL en Santa Cruz, Bolivia, durante la gestión 2025?
 
 ## 2.1. Objeto de estudio
-El desarrollo y evaluación de un producto mínimo viable para la Generación Eficiente de Identificación de Casos de Pruebas en Equipos Ágiles de la empresa Patito SRL en Santa Cruz, Bolivia.
+El proceso de generación e identificación de casos de prueba en los equipos ágiles de la empresa Patito SRL en Santa Cruz, Bolivia.
 
 ## 2.2. Campo de acción
-La implementación experimental y validación del producto mínimo viable basado en Inteligencia Artificial para la Generación Eficiente de Identificación de Casos de Pruebas en los Equipos Ágiles de la empresa Patito SRL en Santa Cruz, Bolivia, durante la gestión 2025.
+La eficiencia en la generación e identificación de casos de prueba para validación de software en los equipos ágiles de la empresa Patito SRL durante la gestión 2025.
 
 Su **alcance** se concreta en la **mejora del proceso de testing de software** en la empresa Patito SRL, específicamente enfocado en la **Generación Eficiente de Identificación de Casos de Pruebas** mediante el desarrollo y la evaluación experimental del producto mínimo viable basado en Inteligencia Artificial dentro de sus Equipos Ágiles, contextualizado en Santa Cruz, Bolivia, durante la gestión 2025.
 
 # 3. Objetivos de la Investigación
-[Contenido pendiente]
-
 ## 3.1. Objetivo General
-Desarrollar un producto mínimo viable basado en Inteligencia Artificial para la Generación Eficiente de Identificación de Casos de Pruebas en Equipos Ágiles, que demuestre la mejora significativa en la eficiencia del proceso de validación de software en la empresa Patito SRL durante la gestión 2025.
+Desarrollar y evaluar un producto mínimo viable basado en Inteligencia Artificial para la Generación Eficiente de Identificación de Casos de Pruebas en Equipos Ágiles en la empresa Patito SRL en la gestión 2025.
 
 ## 3.2. Objetivos Específicos
-1. Diagnosticar el estado actual del proceso de Generación de Identificación de Casos de Pruebas en los Equipos Ágiles de la empresa Patito SRL, identificando las principales problemáticas y oportunidades de mejora.
-
-2. Diseñar un producto mínimo viable para la Generación Eficiente de Identificación de Casos de Pruebas basado en técnicas de Inteligencia Artificial que atienda las necesidades específicas de los proyectos ágiles de la empresa.
-
-3. Implementar el producto mínimo viable diseñado, permitiendo la Generación Eficiente de Identificación de Casos de Pruebas en un entorno controlado.
-
-4. Evaluar experimentalmente el producto mínimo viable implementado en comparación con los métodos tradicionales, mediante métricas cuantitativas como tiempo de generación, cobertura y precisión.
-
+1. Analizar y documentar los procesos actuales de generación de casos de prueba en los equipos ágiles de Patito SRL, identificando ineficiencias y áreas de mejora.
+2. Diseñar y desarrollar un producto mínimo viable que implemente técnicas de Inteligencia Artificial (Machine Learning y Procesamiento del Lenguaje Natural) para automatizar la identificación de casos de prueba.
+3. Implementar el MVP en un contexto controlado dentro de la empresa, asegurando su integración con las metodologías ágiles existentes.
+4. Evaluar la eficiencia del MVP en términos de tiempo de generación, cobertura de pruebas y calidad de los casos identificados, comparando los resultados con los métodos tradicionales.
 5. Establecer un plan de escalamiento para el producto mínimo viable basado en los resultados obtenidos durante la fase experimental en los Equipos Ágiles de la empresa Patito SRL.
 
-# 4. Justificación de la Investigación
+# 4. Justificación
 ## 4.1. Justificación Teórica
 
 Este estudio aporta al campo teórico de la ingeniería de software al integrar conceptos avanzados de Inteligencia Artificial, particularmente el aprendizaje automático y el procesamiento de lenguaje natural, en el proceso de generación de casos de prueba. Dichas técnicas han sido discutidas por autores como Baqar y Khanda (2024), quienes destacan su potencial para transformar los procesos de aseguramiento de la calidad del software. La propuesta permite reforzar los marcos conceptuales existentes al adaptar modelos de automatización al contexto ágil, aportando así nuevas perspectivas para futuras investigaciones.
@@ -131,10 +130,41 @@ Si se desarrolla un producto mínimo viable basado en Inteligencia Artificial pa
 
 **Variable dependiente:** Eficiencia en el proceso de validación de software en equipos ágiles.
 
-# 6. Diseño Metodológico
-[Contenido pendiente]
+# Capítulo 1. Referentes teóricos
 
-## 6.1. Tipo, Enfoque y Alcance de la Investigación
+## Referencia a núcleos teóricos a desarrollar en la investigación
+
+### 1.1.1. Objeto de estudio
+
+### 1.1.2. Campo de acción
+
+### 1.1.3. Cómo del objetivo general
+
+## 1.2. Índice Detallado para el Desarrollo del Marco Teórico Referencial
+
+# Capítulo 2. Diseño metodológico
+
+## 2.1. Tipo, Enfoque y Alcance de la Investigación
+
+## 2.2. Delimitación de la Investigación
+
+## 2.3. Definición Conceptual de las Variables
+
+## 2.4. Definición Operacional de las Variables
+
+## 2.5. Métodos de Investigación
+
+## 2.6. Técnicas de Recolección de Datos de la Investigación
+
+## 2.7. Instrumentos de Investigación
+
+## 2.8. Población y muestra
+
+## 2.9. Análisis de Datos
+
+## 2.10. Cronograma de Investigación
+
+## 2.1. Tipo, Enfoque y Alcance de la Investigación
 El tipo de investigación es **propositivo**, dado que busca desarrollar y evaluar una solución concreta (el MVP). El proyecto se desarrollará bajo un **enfoque cuantitativo**, desde la perspectiva del **paradigma positivista**. Esta elección se fundamenta en la necesidad de medir objetivamente los resultados y validar la hipótesis mediante datos numéricos. Se sustenta en la selección de un **diseño cuasi-experimental**, el cual es apropiado para evaluar el impacto de una intervención (el MVP) en un entorno real donde la asignación aleatoria de participantes a grupos puede no ser factible, permitiendo comparar grupos para determinar la efectividad de la solución propuesta.
 
 Como diseño cuasi-experimental, la investigación implicará la comparación entre al menos dos grupos o condiciones: uno utilizando el método tradicional de identificación de casos de prueba (grupo de control o línea base) y otro utilizando el producto mínimo viable basado en IA (grupo experimental). La secuencia metodológica incluirá una fase inicial de **diagnóstico** para caracterizar la situación actual (apoyada por encuestas y análisis documental), seguida por el **desarrollo e implementación** controlada del MVP, y finalmente una fase de **evaluación comparativa** donde se recolectarán métricas cuantitativas (como tiempos, cobertura, precisión) para analizar estadísticamente las diferencias y verificar la hipótesis planteada sobre la mejora en la eficiencia.
