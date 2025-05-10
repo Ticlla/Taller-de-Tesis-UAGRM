@@ -45,10 +45,3 @@
 
 ---
 
-### 4. Cómo utilizar esta información
-
-1. **Procedimiento** → capítulo "Análisis de datos", vinculando cada paso con instrumentos y variables operacionalizadas.  
-2. **Tabla cronológica** → inicio del "Marco Teórico Referencial" para mostrar la evolución que sustenta tu propuesta.  
-3. **Misión, visión y cultura** → "Marco Contextual" para evidenciar cómo el entorno organizacional habilita o condiciona la investigación.  
-
-> ¡Listo! Copia/pega este contenido directamente en tu documento Markdown y ajústalo según tu estilo de citación preferido.
