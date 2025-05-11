@@ -1,8 +1,40 @@
-# Capítulo 1. Marco Teórico Referencial
+# ÍNDICE DE CONTENIDOS
 
-## 1.1 Estado del Arte de la Generación de Casos de Prueba en Entornos Ágiles
+- [CAPÍTULO 1. MARCO TEÓRICO REFERENCIAL](#capítulo-1-marco-teórico-conceptual)
+  - [1.1. Estado del Arte de la Generación de Casos de Prueba en Entornos Ágiles](#11-estado-del-arte-de-la-generación-de-casos-de-prueba-en-entornos-ágiles)
+    - [1.1.1. Evolución histórica del testing de software](#111-evolución-histórica-del-testing-de-software)
+    - [1.1.2. Transformación de las prácticas de prueba en metodologías ágiles](#112-transformación-de-las-prácticas-de-prueba-en-metodologías-ágiles)
+    - [1.1.3. Tendencias actuales en la automatización de casos de prueba](#113-tendencias-actuales-en-la-automatización-de-casos-de-prueba)
+    - [1.1.4. Investigaciones recientes sobre la aplicación de IA en testing](#114-investigaciones-recientes-sobre-la-aplicación-de-ia-en-testing)
+  - [1.2. Fundamentos Teóricos del Aseguramiento de la Calidad del Software](#12-fundamentos-teóricos-del-aseguramiento-de-la-calidad-del-software)
+    - [1.2.1. Teoría y principios del testing de software](#121-teoría-y-principios-del-testing-de-software)
+    - [1.2.2. Técnicas y estrategias de diseño de casos de prueba](#122-técnicas-y-estrategias-de-diseño-de-casos-de-prueba)
+    - [1.2.3. Métricas de eficiencia y efectividad en el testing](#123-métricas-de-eficiencia-y-efectividad-en-el-testing)
+  - [1.3. Metodologías Ágiles y su Integración con Procesos de Validación](#13-metodologías-ágiles-y-su-integración-con-procesos-de-validación)
+    - [1.3.1. Principios fundamentales del desarrollo ágil](#131-principios-fundamentales-del-desarrollo-ágil)
+    - [1.3.2. Marcos de trabajo ágiles y gestión del testing](#132-marcos-de-trabajo-ágiles-y-gestión-del-testing)
+    - [1.3.3. Integración de validación en ciclos ágiles](#133-integración-de-validación-en-ciclos-ágiles)
+    - [1.3.4. Desafíos y mejores prácticas para testing en entornos ágiles](#134-desafíos-y-mejores-prácticas-para-testing-en-entornos-ágiles)
+  - [1.4. Inteligencia Artificial Aplicada al Testing de Software](#14-inteligencia-artificial-aplicada-al-testing-de-software)
+    - [1.4.1. Fundamentos de IA relevantes para testing automatizado](#141-fundamentos-de-ia-relevantes-para-testing-automatizado)
+    - [1.4.2. Técnicas de Machine Learning para generación de casos de prueba](#142-técnicas-de-machine-learning-para-generación-de-casos-de-prueba)
+    - [1.4.3. Procesamiento de lenguaje natural en análisis de requisitos para testing](#143-procesamiento-de-lenguaje-natural-en-análisis-de-requisitos-para-testing)
+    - [1.4.4. Automatización inteligente de pruebas y análisis predictivo](#144-automatización-inteligente-de-pruebas-y-análisis-predictivo)
+    - [1.4.5. Casos de estudio y evaluación de soluciones IA para testing](#145-casos-de-estudio-y-evaluación-de-soluciones-ia-para-testing)
+  - [1.5. Marco Normativo y Buenas Prácticas en Testing de Software](#15-marco-normativo-y-buenas-prácticas-en-testing-de-software)
+    - [1.5.1. Estándares internacionales relevantes para testing](#151-estándares-internacionales-relevantes-para-testing)
+    - [1.5.2. Buenas prácticas y certificaciones de calidad](#152-buenas-prácticas-y-certificaciones-de-calidad)
+    - [1.5.3. Regulaciones específicas por industria y su impacto en el testing](#153-regulaciones-específicas-por-industria-y-su-impacto-en-el-testing)
 
-### 1.1.1 Evolución histórica del testing de software
+# CAPÍTULO 1. MARCO TEÓRICO REFERENCIAL
+
+## Resumen
+
+Este marco teórico establece los fundamentos para la generación automatizada de casos de prueba en entornos ágiles aplicando inteligencia artificial. Partiendo de la evolución histórica del testing, que ha transitado desde enfoques manuales y secuenciales hacia prácticas integradas y continuas en metodologías ágiles, se identifican las tendencias actuales en automatización y aplicación de IA en testing. Los fundamentos teóricos del aseguramiento de calidad son explorados mediante los siete principios del testing (ISTQB), las técnicas de diseño de casos de prueba (caja negra y caja blanca) y las métricas de eficiencia y efectividad que permiten evaluar objetivamente el proceso. Se analiza cómo las metodologías ágiles han transformado radicalmente la validación, integrándola en ciclos cortos e iterativos donde el testing ocurre en paralelo al desarrollo, apoyándose en prácticas como TDD, ATDD, integración continua y automatización estratégica. El documento profundiza en la aplicación de inteligencia artificial al testing, detallando cómo tecnologías como machine learning, procesamiento de lenguaje natural y aprendizaje por refuerzo están revolucionando la generación de casos de prueba, el análisis predictivo de defectos y las pruebas auto-reparables. Finalmente, se presenta el marco normativo y buenas prácticas, incluyendo estándares internacionales (ISO/IEC/IEEE 29119, ISO 26262), certificaciones y regulaciones específicas por industria. Este corpus teórico evidencia la convergencia de metodologías ágiles e inteligencia artificial como catalizadores de transformación en el aseguramiento de calidad de software moderno.
+
+## 1.1. Estado del Arte de la Generación de Casos de Prueba en Entornos Ágiles
+
+### 1.1.1. Evolución histórica del testing de software
 
 El testing de software ha evolucionado considerablemente desde sus inicios hasta las prácticas actuales. En las primeras décadas de la computación, las verificaciones eran principalmente actividades ad hoc realizadas por los propios desarrolladores, enfocadas en la depuración (*debugging*) más que en una evaluación sistemática. Con el crecimiento de la complejidad del software, surgió la necesidad de enfoques más estructurados: durante los años 70 y 80, el modelo tradicional en cascada (*waterfall*) se popularizó, separando explícitamente una fase de validación al final del ciclo de desarrollo (TestDevLab, 2022).
 
@@ -14,7 +46,7 @@ En paralelo, la automatización de verificaciones comenzó a ganar terreno con l
 
 En resumen, hacia finales del siglo XX el aseguramiento de calidad de software pasó de ser un arte poco estructurado a una disciplina con fundamentos, técnicas y estándares reconocidos, aunque mayoritariamente se seguían ejecutando de forma secuencial después del desarrollo, con limitaciones en eficiencia y tiempos de respuesta.
 
-### 1.1.2 Transformación de las prácticas de prueba en metodologías ágiles
+### 1.1.2. Transformación de las prácticas de prueba en metodologías ágiles
 
 La llegada de las metodologías ágiles a inicios de los 2000 (manifiesto ágil en 2001) supuso un cambio radical en cómo se conciben las pruebas. En lugar de considerar el testing como una etapa post-desarrollo, el agilismo lo integra como una actividad continua dentro de iteraciones cortas. Los métodos ágiles (Scrum, XP, etc.) promueven "entrega temprana y continua de software funcionando" (Beck et al., 2001), lo que exige que la validación ocurra simultáneamente al desarrollo de cada funcionalidad. Así, "las pruebas ya no son una fase separada, sino parte integral del desarrollo" (Wikipedia, 2023).
 
@@ -32,7 +64,7 @@ Las metodologías ágiles también fomentaron las pruebas exploratorias dentro d
 
 En resumen, la cultura ágil derribó la barrera entre desarrollo y QA: ahora las pruebas acompañan al producto durante todo su ciclo de construcción, incrementando dramáticamente la velocidad de retroalimentación. Se pasa de un esquema en que el testing ocurría al final (y podía ser recortado por presión de fechas) a uno en que "cada incremento de funcionalidad se prueba y repara inmediatamente", lo que acorta el ciclo de detección y corrección de defectos (Wikipedia, 2023). Esto ha mejorado la calidad y reducido costos, ya que los errores se corrigen cuando el contexto del código aún está fresco para el desarrollador y antes de que generen efectos en cascada (Wikipedia, 2023).
 
-### 1.1.3 Tendencias actuales en la automatización de casos de prueba
+### 1.1.3. Tendencias actuales en la automatización de casos de prueba
 
 En la actualidad, con la madurez de las metodologías ágiles y DevOps, la automatización de pruebas se ha vuelto prácticamente obligatoria para mantener la velocidad de entrega. Entre las tendencias destacadas está la adopción de herramientas de automatización sin código o de bajo código (*codeless testing*), que permiten crear casos de prueba automatizados mediante interfaces visuales o grabación de interacciones, en vez de programación tradicional. Estas soluciones, muchas basadas en inteligencia artificial, buscan democratizar la generación de pruebas para que miembros no técnicos puedan contribuir a la automatización (LambdaTest, 2023).
 
@@ -56,7 +88,7 @@ La adopción de estas tecnologías sigue un patrón incremental en las organizac
 
 En resumen, el estado actual de la automatización de pruebas se caracteriza por la búsqueda de máxima eficiencia (más pruebas en menos tiempo) y efectividad (detectar los fallos más críticos primero) apoyándose en tecnologías emergentes como la IA, y por una integración cada vez más estrecha con todo el ciclo de desarrollo y operación del software.
 
-### 1.1.4 Investigaciones recientes sobre la aplicación de IA en testing
+### 1.1.4. Investigaciones recientes sobre la aplicación de IA en testing
 
 La última década ha visto un auge de investigación en aplicar Inteligencia Artificial al testing de software, alineado con las tendencias mencionadas. Diversos estudios y trabajos académicos recientes exploran cómo la IA puede transformar y mejorar las pruebas en múltiples dimensiones.
 
@@ -82,9 +114,9 @@ Entre los beneficios documentados están: reducción drástica del tiempo de dis
 
 Sin embargo, también se señalan desafíos abiertos, como la necesidad de grandes cantidades de datos de entrenamiento para ciertos enfoques de ML, la explicabilidad de las decisiones de IA en testing, y la integración de estas herramientas en los flujos de trabajo existentes. Estos temas siguen siendo objeto de investigación activa, encaminada a robustecer y democratizar el uso de IA en la garantía de calidad del software.
 
-## 1.2 Fundamentos Teóricos del Aseguramiento de la Calidad del Software
+## 1.2. Fundamentos Teóricos del Aseguramiento de la Calidad del Software
 
-### 1.2.1 Teoría y principios del testing de software
+### 1.2.1. Teoría y principios del testing de software
 
 El aseguramiento de la calidad del software (SQA) se sustenta en una serie de principios teóricos probados a lo largo del tiempo. En el ámbito específico del testing, existen principios fundamentales ampliamente aceptados que guían la efectividad de las pruebas. El estándar ISTQB resume siete principios del testing que sirven de pilar conceptual (Diario de QA, 2023):
 
@@ -108,7 +140,7 @@ Asimismo, la teoría define distintos niveles de prueba (unitaria, integración,
 
 En síntesis, los principios y fundamentos teóricos del testing proporcionan un marco para entender por qué probamos y cómo orientar nuestros esfuerzos de manera eficiente y efectiva.
 
-### 1.2.2 Técnicas y estrategias de diseño de casos de prueba
+### 1.2.2. Técnicas y estrategias de diseño de casos de prueba
 
 Un elemento central en el aseguramiento de la calidad es cómo diseñamos los casos de prueba, es decir, qué entradas, condiciones y secuencias ejecutaremos para intentar encontrar defectos. Existen numerosas técnicas de diseño de pruebas sistemáticas que ayudan a maximizar la efectividad de las pruebas con un conjunto limitado de casos. Estas técnicas se suelen clasificar en dos grandes grupos: técnicas de caja negra (basadas en la especificación o comportamiento externo) y técnicas de caja blanca (basadas en la estructura interna o código).
 
@@ -140,7 +172,7 @@ A nivel estratégico, se define una estrategia de pruebas que indica qué técni
 
 En síntesis, las técnicas de diseño de casos de prueba proporcionan un arsenal metodológico al aseguramiento de calidad: permiten seleccionar casos de manera racional y reproducible, evitando depender únicamente del azar o la intuición. El uso adecuado de técnicas como particionado, valores límite, cobertura de código, etc., redunda en suites de prueba más pequeñas pero con alto poder de detección de fallos y con trazabilidad tanto a requisitos como a código (Hiberus, 2022). Esto mejora la eficiencia (menos pruebas redundantes) y efectividad (más defectos detectados precozmente) del proceso de testing dentro del aseguramiento de la calidad del software.
 
-### 1.2.3 Métricas de eficiencia y efectividad en el testing
+### 1.2.3. Métricas de eficiencia y efectividad en el testing
 
 Para gestionar y mejorar el proceso de testing es fundamental medir su desempeño. Existen múltiples métricas utilizadas para evaluar la eficiencia y efectividad del aseguramiento de calidad. Las métricas proporcionan datos objetivos sobre el progreso y resultados de las pruebas, permitiendo identificar brechas y evidenciar logros (TestDevLab, 2022).
 
@@ -162,9 +194,9 @@ Sin embargo, las métricas deben interpretarse considerando el contexto específ
 
 Con la introducción de IA en testing, están surgiendo nuevas métricas como el Tiempo de Aprendizaje del Sistema para generar casos adecuados, la Precisión Predictiva en la identificación de áreas propensas a defectos, y la Tasa de Reducción de Esfuerzo Manual gracias a la automatización inteligente. Estas métricas emergentes serán fundamentales para evaluar el impacto real de las soluciones basadas en IA en la eficiencia del proceso de pruebas (Wagner, 2019).
 
-## 1.3 Metodologías Ágiles y su Integración con Procesos de Validación
+## 1.3. Metodologías Ágiles y su Integración con Procesos de Validación
 
-### 1.3.1 Principios fundamentales del desarrollo ágil
+### 1.3.1. Principios fundamentales del desarrollo ágil
 
 Las metodologías ágiles surgieron como respuesta a las limitaciones de los enfoques tradicionales de desarrollo. El Manifiesto Ágil, publicado en 2001, estableció cuatro valores fundamentales: individuos e interacciones sobre procesos y herramientas, software funcionando sobre documentación extensiva, colaboración con el cliente sobre negociación contractual, y respuesta ante el cambio sobre seguir un plan (Beck et al., 2001). Estos valores se complementan con doce principios que priorizan la entrega temprana y continua de software valioso, la adaptabilidad a los cambios, la colaboración diaria entre desarrolladores y clientes, y la mejora constante a través de la reflexión (Agile Alliance, 2023).
 
@@ -180,7 +212,7 @@ La colaboración y comunicación son esenciales en el agilismo. Los equipos son 
 
 Finalmente, el agilismo pone énfasis en la transparencia. El estado del proyecto, los impedimentos, las métricas y el progreso son visibles para todo el equipo y los stakeholders relevantes. Esta visibilidad permite tomar decisiones informadas, gestionar expectativas y abordar problemas rápidamente. Herramientas como tableros Kanban, burndown charts y backlog priorizado hacen visible el trabajo y ayudan a gestionar el flujo del mismo (Agile Alliance, 2023).
 
-### 1.3.2 Marcos de trabajo ágiles y gestión del testing
+### 1.3.2. Marcos de trabajo ágiles y gestión del testing
 
 Los marcos de trabajo ágiles proporcionan estructuras concretas para implementar los valores y principios ágiles. Cada marco tiene características distintivas que influyen en cómo se gestiona la calidad y las pruebas. Scrum, uno de los marcos más populares, organiza el trabajo en sprints (iteraciones fijas, típicamente de 2-4 semanas) con roles claramente definidos: Product Owner (representa las necesidades del cliente), Scrum Master (facilita el proceso) y equipo de desarrollo (construye el producto). Las pruebas se integran en la "Definición de Hecho" (Definition of Done) que establece los criterios mínimos de calidad para considerar que una funcionalidad está completa, incluyendo típicamente verificaciones de calidad como pruebas unitarias, pruebas de aceptación y revisión de código (Schwaber & Sutherland, 2020).
 
@@ -203,7 +235,7 @@ A pesar de sus diferencias, estos marcos comparten enfoque en la entrega tempran
 
 Estas características contrastan con enfoques tradicionales donde el testing era una fase aislada al final del ciclo. En entornos ágiles, el equipo completo (incluidos los testers) comparte la responsabilidad por la calidad, y las actividades de prueba están integradas en el flujo de trabajo diario (International Software Testing Qualifications Board, 2022).
 
-### 1.3.3 Integración de validación en ciclos ágiles
+### 1.3.3. Integración de validación en ciclos ágiles
 
 La validación en ciclos ágiles se diferencia significativamente de los modelos tradicionales en que ocurre continuamente a lo largo del ciclo de desarrollo. Esta integración se manifiesta en múltiples niveles y requiere adaptar tanto las prácticas de prueba como la mentalidad del equipo. A nivel de sprint o iteración, las pruebas se planifican, ejecutan y completan dentro del mismo ciclo en que se desarrollan las funcionalidades. Esto implica descomponer las pruebas en incrementos pequeños, alineados con las historias de usuario o tareas de desarrollo que se abordan en ese sprint (Crispin & Gregory, 2022).
 
@@ -225,7 +257,7 @@ La instrumentación del código y monitorización ayudan a identificar problemas
 
 La trazabilidad entre historias, casos de prueba y defectos se gestiona de manera liviana pero efectiva, a menudo con herramientas que integran gestión ágil y testing. Finalmente, el equipo cross-functional es fundamental; los equipos ágiles efectivos incluyen miembros con habilidades de testing, pero la responsabilidad de la calidad es compartida. Este "whole-team approach" reconoce que la calidad no es responsabilidad exclusiva de testers designados (International Software Testing Qualifications Board, 2022).
 
-### 1.3.4 Desafíos y mejores prácticas para testing en entornos ágiles
+### 1.3.4. Desafíos y mejores prácticas para testing en entornos ágiles
 
 Los equipos ágiles enfrentan diversos desafíos al integrar efectivamente las actividades de testing en ciclos de desarrollo cortos y frecuentes. Uno de los más comunes es la presión del tiempo: con sprints de 1-4 semanas, completar tanto el desarrollo como las pruebas exhaustivas de nuevas funcionalidades resulta desafiante. Los equipos pueden sentirse tentados a reducir el alcance de las pruebas para cumplir plazos, comprometiendo potencialmente la calidad. Relacionado con esto, la "deuda de testing" puede acumularse cuando las pruebas se posponen o se realizan superficialmente, similar a la deuda técnica en el código (Crispin & Gregory, 2022).
 
@@ -263,11 +295,11 @@ Frente a estos desafíos, los equipos ágiles exitosos han desarrollado mejores 
 
 **Retrospectivas enfocadas en calidad**: Dedicar tiempo en retrospectivas para analizar problemas de calidad, patrones de defectos y efectividad de pruebas, implementando mejoras incrementales al proceso (Bach, 2020).
 
-Estas prácticas, aplicadas contextualmente según las necesidades específicas del proyecto y la organización, permiten a los equipos ágiles entregar software de alta calidad en ciclos rápidos y frecuentes, superando los desafíos inherentes a la integración de testing en entornos altamente dinámicos.
+Estas prácticas, aplicadas contextualmente según las necesidades específicas del proyecto y la organización, permiten a los equipos ágiles entregar software de alta calidad en ciclos rápidos y frecuentes, superando los desafíos inherentes a la integración de testing en entornos altamente dinámicos. 
 
-## 1.4 Inteligencia Artificial Aplicada al Testing de Software
+## 1.4. Inteligencia Artificial Aplicada al Testing de Software
 
-### 1.4.1 Fundamentos de IA relevantes para testing automatizado
+### 1.4.1. Fundamentos de IA relevantes para testing automatizado
 
 La Inteligencia Artificial (IA) abarca un conjunto de técnicas computacionales que permiten a las máquinas simular aspectos de la inteligencia humana. Dentro de este campo amplio, existen subcampos particularmente relevantes para el testing de software. El Machine Learning (ML) constituye una de las ramas más aplicables, permitiendo a los sistemas aprender patrones a partir de datos sin ser explícitamente programados para ello. Esta capacidad resulta valiosa para testing, donde el reconocimiento de patrones (como identificar posibles defectos o clases equivalentes de entrada) es fundamental (Ramadan et al., 2024).
 
@@ -291,7 +323,7 @@ Los fundamentos modernos también incluyen consideraciones éticas y de responsa
 
 En resumen, los fundamentos teóricos de la IA proporcionan un rico conjunto de herramientas aplicables al testing, desde la generación inteligente de casos de prueba hasta la predicción de áreas propensas a defectos. El reto está en seleccionar las técnicas apropiadas para cada problema específico de testing, y combinarlas efectivamente con el conocimiento del dominio y las prácticas establecidas de ingeniería de software.
 
-### 1.4.2 Técnicas de Machine Learning para generación de casos de prueba
+### 1.4.2. Técnicas de Machine Learning para generación de casos de prueba
 
 El Machine Learning (ML) ha transformado el enfoque tradicional de generación de casos de prueba, introduciendo métodos que pueden aprender de ejemplos pasados, identificar patrones y generar nuevos casos de manera más inteligente que los enfoques basados puramente en reglas o aleatorios. Entre las técnicas más prometedoras se encuentra el aprendizaje supervisado para la generación de casos de prueba, donde modelos entrenados con conjuntos existentes de pruebas exitosas pueden generar nuevos casos que cumplan características similares. Este enfoque es particularmente efectivo cuando existen amplios repositorios históricos de pruebas bien documentadas (Nair et al., 2021).
 
@@ -313,7 +345,7 @@ Los enfoques combinados que integran varias técnicas de ML suelen ofrecer los m
 
 Entre los desafíos pendientes están la necesidad de datos de entrenamiento de calidad, la interpretabilidad de los casos generados (entender por qué el sistema considera que un caso particular es valioso), y la adaptación a dominios específicos donde el conocimiento experto sigue siendo crucial. Las técnicas de explicabilidad de IA (XAI) están ganando importancia para que los testers confíen y comprendan las pruebas generadas automáticamente (Ramadan et al., 2024).
 
-### 1.4.3 Procesamiento de lenguaje natural en análisis de requisitos para testing
+### 1.4.3. Procesamiento de lenguaje natural en análisis de requisitos para testing
 
 El Procesamiento de Lenguaje Natural (NLP) ha emergido como una herramienta transformadora para extraer información de prueba a partir de requisitos textuales y documentación. Este enfoque aborda un desafío persistente en el aseguramiento de la calidad: la brecha entre requisitos, a menudo expresados en lenguaje natural, y los casos de prueba formales necesarios para validarlos. Los avances recientes en modelos de lenguaje y técnicas de NLP han habilitado la creación de herramientas que automatizan parcial o totalmente este proceso de transformación (Garousi et al., 2022).
 
@@ -337,7 +369,7 @@ Entre los desafíos actuales se encuentra el manejo del lenguaje específico de 
 
 A pesar de estos desafíos, las investigaciones recientes muestran resultados prometedores. Estudios comparativos indican que los sistemas basados en NLP pueden, en ciertos contextos, alcanzar niveles de precisión comparables a analistas humanos en la derivación de casos de prueba a partir de requisitos textuales, aunque con velocidad significativamente mayor. La tendencia apunta hacia sistemas híbridos donde la IA propone casos de prueba que luego son revisados y refinados por humanos, combinando eficiencia automatizada con juicio experto (Ramadan et al., 2024).
 
-### 1.4.4 Automatización inteligente de pruebas y análisis predictivo
+### 1.4.4. Automatización inteligente de pruebas y análisis predictivo
 
 La automatización inteligente representa la evolución natural de las técnicas tradicionales de automatización de pruebas, incorporando capacidades de IA que permiten superar limitaciones históricas. A diferencia de la automatización convencional, que depende de scripts predefinidos y suele fallar ante cambios menores en la interfaz, los sistemas de automatización inteligente poseen capacidades adaptativas que revolucionan el mantenimiento y ejecución de pruebas (Baqar & Khanda, 2024).
 
@@ -361,13 +393,13 @@ Las técnicas avanzadas de IA también están facilitando pruebas exploratorias 
 
 La adopción de estas tecnologías sigue un patrón incremental, con organizaciones implementando primero capacidades como scripts auto-reparables y priorización inteligente antes de avanzar hacia soluciones más sofisticadas como generación de pruebas dirigida por IA. Los estudios de caso en la industria muestran beneficios tangibles: reducción de tiempo dedicado a mantenimiento de automatización, mejor asignación de recursos de testing y mayor confianza en despliegues frecuentes. Sin embargo, para maximizar estos beneficios, las organizaciones deben considerar factores como la calidad y disponibilidad de datos históricos, la integración con herramientas existentes y el desarrollo de habilidades adecuadas en el equipo (Ramadan et al., 2024).
 
-### 1.4.5 Casos de estudio y evaluación de soluciones IA para testing
+### 1.4.5. Casos de estudio y evaluación de soluciones IA para testing
 
-Las investigaciones empíricas sobre aplicaciones de IA en testing proporcionan evidencia valiosa sobre ventajas y desafíos en entornos reales. Un estudio significativo en el sector bancario, conducido por Babar et al. (2023), documentó la implementación de un sistema de generación de casos de prueba basado en procesamiento de lenguaje natural en una institución financiera internacional. La solución analizaba historias de usuario y especificaciones, generando automáticamente escenarios de verificación estructurados. Los resultados evidenciaron una disminución del 47% en el tiempo dedicado a la creación manual de casos, manteniendo niveles comparables de cobertura de requisitos. No obstante, los investigadores observaron que las verificaciones generadas para funcionalidades complejas o específicas del dominio financiero necesitaban revisión significativa por parte de analistas especializados.
+Las investigaciones empíricas sobre aplicaciones de IA en testing proporcionan evidencia valiosa sobre ventajas y desafíos en entornos reales. Un estudio significativo en el sector bancario, conducido por Babar et al. (2023), documentó la implementación de un sistema de generación de casos de prueba basado en procesamiento de lenguaje natural en una institución financiera internacional. La solución analizaba historias de usuario y especificaciones, generando automáticamente escenarios de verificación estructurados. Los resultados evidenciaron una disminución del 47% en el tiempo dedicado a la creación manual de casos, manteniendo niveles comparables de cobertura de requisitos. No obstante, los investigadores observaron que las verificaciones generadas para funcionalidades complejas o específicas del dominio financiero necesitaban revisión significativa por parte de analistas especializados. 
 
-## 1.5 Marco Normativo y Buenas Prácticas en Testing de Software
+## 1.5. Marco Normativo y Buenas Prácticas en Testing de Software
 
-### 1.5.1 Estándares internacionales relevantes para testing
+### 1.5.1. Estándares internacionales relevantes para testing
 
 Los estándares internacionales proporcionan marcos de referencia fundamentales para las prácticas de verificación de software, estableciendo terminología común, procesos recomendados y criterios de calidad. ISO/IEC/IEEE 29119 constituye actualmente la normativa más comprehensiva específicamente dedicada a pruebas de software. Esta familia de directrices, desarrollada para reemplazar y unificar pautas previas como IEEE 829 y BS 7925, abarca múltiples aspectos del proceso de evaluación. La parte 1 (Conceptos y definiciones) establece un vocabulario compartido; la parte 2 (Procesos de prueba) define un modelo genérico aplicable a diferentes contextos; la parte 3 (Documentación) especifica los registros mínimos requeridos; la parte 4 (Técnicas) detalla métodos para diseñar escenarios de verificación; y la parte 5 (Testing dirigido por palabras clave) cubre enfoques específicos de automatización (ISO/IEC, 2022).
 
@@ -389,7 +421,7 @@ TMMi (Test Maturity Model integration) y TPI (Test Process Improvement) son mode
 
 Aunque estos estándares y marcos establecen bases sólidas, su implementación debe adaptarse al contexto específico. Organizaciones en industrias reguladas como finanzas, salud o aeroespacial tienden a adherirse más estrictamente a estándares formales, mientras que startups o empresas con metodologías ágiles maduras suelen adoptar enfoques más ligeros y selectivos. La tendencia actual es hacia una implementación pragmática que equilibre el rigor metodológico con la flexibilidad, adaptando aspectos relevantes de múltiples estándares según las necesidades específicas de la organización y sus productos (ISO/IEC, 2022).
 
-### 1.5.2 Buenas prácticas y certificaciones de calidad
+### 1.5.2. Buenas prácticas y certificaciones de calidad
 
 Las buenas prácticas en aseguramiento de calidad de software constituyen un complemento esencial a los estándares formales, ofreciendo directrices prácticas basadas en experiencia acumulada de la industria. Estas prácticas han evolucionado junto con las metodologías de desarrollo, adaptándose desde entornos tradicionales hasta contextos ágiles y DevOps. Entre las prácticas fundamentales ampliamente reconocidas se encuentra la independencia de pruebas: garantizar que quienes evalúan el software no sean los mismos que lo desarrollaron, lo que reduce sesgos de confirmación. Esta independencia puede implementarse a diferentes niveles, desde individuos diferentes dentro del mismo equipo hasta departamentos o incluso organizaciones externas separadas, dependiendo de factores como criticidad del sistema y madurez organizacional (Spillner et al., 2021).
 
@@ -413,7 +445,7 @@ ISO 9001, aunque no específica para software, certifica sistemas de gestión de
 
 En el panorama actual, se observa una tendencia hacia enfoques más pragmáticos. Las organizaciones buscan equilibrio entre prácticas formales que aseguren calidad sistemática y agilidad que permita responder a cambios rápidamente. Esta evolución se refleja en frameworks híbridos como SAFe, que integran prácticas de calidad en flujos de trabajo ágil escalado, o enfoques DevOps que incorporan calidad y seguridad desde el inicio (shift-left) mediante automatización extensiva y feedback continuo. El futuro apunta hacia una mayor integración de inteligencia artificial tanto en pruebas como en análisis de calidad, complementando—no reemplazando—la experiencia humana (ASQ, 2023).
 
-### 1.5.3 Regulaciones específicas por industria y su impacto en el testing
+### 1.5.3. Regulaciones específicas por industria y su impacto en el testing
 
 Las regulaciones específicas por industria establecen requisitos adicionales para el testing de software, especialmente en sectores donde fallos pueden tener consecuencias graves para la seguridad, privacidad o finanzas. Estas normativas varían significativamente en rigor y enfoque, determinando aspectos como documentación mínima, niveles de cobertura, análisis de riesgos, verificación independiente, y conservación de evidencias. El cumplimiento de estas regulaciones no es opcional sino obligatorio, con consecuencias legales potencialmente severas por incumplimiento (Reed, 2023).
 

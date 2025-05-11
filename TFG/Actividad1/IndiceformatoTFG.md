@@ -20,7 +20,7 @@
   - [6.6. Población y Muestra](#66-población-y-muestra)
   - [6.7. Análisis de los Datos](#67-análisis-de-los-datos)
 
-## CAPÍTULO 1. MARCO TEÓRICO CONCEPTUAL
+## CAPÍTULO 1. MARCO TEÓRICO REFERENCIAL
 
 - [1.1. Primer epígrafe del marco teórico](#11-primer-epígrafe-del-marco-teórico)
   - [1.1.1. Subepígrafe](#111-subepígrafe)

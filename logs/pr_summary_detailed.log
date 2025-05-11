@@ -1,0 +1,30 @@
+2025-05-11 11:12:20,946 - DEBUG - [chat_1746976338_budti4] PR_SUMMARY: Detailed logging initialized for chat session chat_1746976338_budti4
+2025-05-11 11:12:20,947 - DEBUG - [chat_1746976338_budti4] Processing PR URL: https://bitbucket.techops.usw2.upwork/projects/SCRUM-MKPL-ENG-ENABLEMENT/repos/mkpl-mcp-server/pull-requests/13/diff#configs%2Fconfig.dev
+2025-05-11 11:12:20,947 - DEBUG - [chat_1746976338_budti4] Creating BitbucketService with verbose=False
+2025-05-11 11:12:20,950 - DEBUG - [chat_1746976338_budti4] Fetching PR data from URL: https://bitbucket.techops.usw2.upwork/projects/SCRUM-MKPL-ENG-ENABLEMENT/repos/mkpl-mcp-server/pull-requests/13/diff#configs%2Fconfig.dev
+2025-05-11 11:12:23,203 - DEBUG - [chat_1746976338_budti4] PR data fetched in 2.25 seconds
+2025-05-11 11:12:23,203 - DEBUG - [chat_1746976338_budti4] PR data retrieved. Title: MPEE-222
+2025-05-11 11:12:23,203 - DEBUG - [chat_1746976338_budti4] PR author: Mohamed Faramawi
+2025-05-11 11:12:23,204 - DEBUG - [chat_1746976338_budti4] PR state: OPEN
+2025-05-11 11:12:23,204 - DEBUG - [chat_1746976338_budti4] PR branches: MPEE-222 → master
+2025-05-11 11:12:23,204 - DEBUG - [chat_1746976338_budti4] Raw diff size: 68743 characters
+2025-05-11 11:12:23,204 - DEBUG - [chat_1746976338_budti4] Raw diff first 100 chars: {"fromHash":"c47d843f106276e44202072454fb4be85443a3df","toHash":"5474118a8b929143f256a75d0676b28ff0e
+2025-05-11 11:12:23,204 - DEBUG - [chat_1746976338_budti4] Number of diff files: 9
+2025-05-11 11:12:23,204 - DEBUG - [chat_1746976338_budti4] Sample files: .gitignore, configs/config.dev, configs/config.staging, src/bitbucket_integration.py, src/config.py
+2025-05-11 11:12:23,204 - DEBUG - [chat_1746976338_budti4] ...and 4 more files
+2025-05-11 11:12:23,204 - DEBUG - [chat_1746976338_budti4] Number of commits: 4
+2025-05-11 11:12:23,204 - DEBUG - [chat_1746976338_budti4] Sample commit messages: MPEE-222: Empty commit to trigger a new build, MPEE-222: Update JIRA integration and tests: add pull request support, improve field coverage, and add new test cases, MPEE-222: Hide bitbucket write-like tools
+2025-05-11 11:12:23,205 - DEBUG - [chat_1746976338_budti4] ...and 1 more commits
+2025-05-11 11:12:23,207 - DEBUG - [chat_1746976338_budti4] Generating summary using language model
+2025-05-11 11:12:23,207 - DEBUG - [chat_1746976338_budti4] Preparing prompt for language model
+2025-05-11 11:12:23,207 - DEBUG - [chat_1746976338_budti4] Processing 9 diff files for the prompt
+2025-05-11 11:12:23,208 - DEBUG - [chat_1746976338_budti4] Adding 4 commits to the prompt
+2025-05-11 11:12:23,208 - DEBUG - [chat_1746976338_budti4] No review comments available
+2025-05-11 11:12:23,208 - DEBUG - [chat_1746976338_budti4] Adding model instructions to the prompt
+2025-05-11 11:12:23,208 - DEBUG - [chat_1746976338_budti4] Prepared prompt with 32 sections and 3652 characters
+2025-05-11 11:12:23,209 - DEBUG - [chat_1746976338_budti4] Files included in prompt: True
+2025-05-11 11:12:23,209 - DEBUG - [chat_1746976338_budti4]  OpenAI prompt prepared: 3683 chars
+2025-05-11 11:12:23,209 - DEBUG - [chat_1746976338_budti4]  Calling OpenAI API with model: gpt-4o
+2025-05-11 11:12:30,796 - DEBUG - [chat_1746976338_budti4]  OpenAI API call completed, extracting response
+2025-05-11 11:12:30,796 - DEBUG - [chat_1746976338_budti4]  Generated summary: 2525 chars, tokens: 1245
+2025-05-11 11:12:30,796 - DEBUG - [chat_1746976338_budti4] Summary generation took 7.59 seconds
